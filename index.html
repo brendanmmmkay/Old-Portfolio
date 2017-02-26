@@ -1,6 +1,6 @@
 <!--
-　　
-      　　　           _,u-*P"9\w__     __..e-w.__                                    
+  
+                    _,u-*P"9\w__     __..e-w.__                                    
             _a*^          ^w.e*'"_____   `*mw____                             
           _wP               'm_m^"   "'*L    ""~~*vL__                        
         _gK                   5L         Y,          "*x,_                    
@@ -40,10 +40,18 @@ JF                                                   #               ?L  *K
                           0#                             ]#                   
                           0#                             JP                   
                           3# AC  
-
-
 -->
 
+<style>
+    
+  html { 
+  background: url(http://i.imgur.com/QfyrylX.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
 
 <style>
 /* unvisited link */
@@ -72,8 +80,6 @@ img.two {
 }
 </style>
 
-
-
 <style>
 div {
     border: transparent;
@@ -99,9 +105,6 @@ Background-color:#001722;
 </head>
 <body>
 
-  <video autoplay="" loop="" id="bgvid">
-<source src="citynight.webm" type="video/webm">    
-      
 <div class="clearfix">
 
 <center><nav>
@@ -126,7 +129,6 @@ Background-color:#001722;
 ]]>
 </style>
  <defs>
-
   <filter id="filter">
       <feFlood flood-color="#001722" result="#001722" />
       <feFlood flood-color="red" result="flood1" />
@@ -137,21 +139,17 @@ Background-color:#001722;
    <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
       <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
       <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
-
       <feMerge x="0" width="100%" result="merge1">
     <feMergeNode in = "" />
     <feMergeNode in = "comp1" />
     <feMergeNode in = "off1b" />
-
     <animate 
      attributeName="y" 
         id = "y"
         dur ="4s"
         
         values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
-
         keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
-
         repeatCount = "indefinite" />
  
     <animate attributeName="height" 
@@ -159,25 +157,19 @@ Background-color:#001722;
         dur ="4s"
         
         values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
-
         keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
-
         repeatCount = "indefinite" />
       </feMerge>
     
-
     <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
     <feMergeNode in = "#001722" />
     <feMergeNode in = "comp2" />
     <feMergeNode in = "off2b" />
-
     <animate attributeName="y" 
         id = "y"
         dur ="4s"
         values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
-
         keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
-
          repeatCount = "indefinite" />
  
     <animate attributeName="height" 
@@ -185,7 +177,6 @@ Background-color:#001722;
         dur = "4s"
      
      values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
-
         keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
          
         repeatCount = "indefinite" />
@@ -193,52 +184,35 @@ Background-color:#001722;
    
     <feMerge>
      <feMergeNode in="SourceGraphic" /> 
-
     <feMergeNode in="merge1" /> 
     <feMergeNode in="merge2" />
-
       </feMerge>
      </filter>
-
  </defs>
-
 <g>
  <text x="0" y="100">RSBB</text>
 </g>
 </svg></a></left>
-
-
-
  <p style="font-family:arial;color:#FFFF32;font-size:12px;">
     
   <pre>
-  <font color=red size=1>  
-                 !#########       #
-               !########!          ##!
-            !########!               ###
-         !##########                  ####
-       ######### #####                ######
-        !###!      !####!              ######
-          !           #####            ######!
-                        !####!         #######
-                           #####       #######
-                             !####!   #######!
-                                ####!########
-             ##                   ##########
-           ,######!          !#############
-         ,#### ########################!####!
-       ,####'     ##################!'    #####
-     ,####'            #######              !####!
-    ####'                                      #####
-    ~##                                          ##~
-                  
+  <font color=white size=2>  
+Things have turned a deeper shade of blue
+and images that might be real
+may be illusion
+Keep flashing off and on
+
+Everything is clearer now
+Life is just a dream, you know
+that's never ending
+I'm ascending
                   </font>
                    </pre>
                     </p> 
 <p align="left" style="font-family:arial;color:#DEFFEC;font-size:10px;">  
       <pre>    
-      <font color=red size=4> 
-its a glorious occasion.
+      <font color=white size=4> 
+No black and white in the blue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 </font>
 </p>
@@ -246,42 +220,30 @@ its a glorious occasion.
           
           
 <center><p style="font-family:arial;color:#DEFFEC;font-size:10px;">Photo Gallery; Maui - Vancouver - East</p></center>
-
 <center><a href="http://brendanmmmkay.github.io/color.html">
 Color</a>
-
 <a style="font-family:arial;color:#DEFFEC;font-size:10px;">//</a>
-
 <a href="http://brendanmmmkay.github.io/summer.html">
 Vancity</a>
-
 <a style="font-family:arial;color:#DEFFEC;font-size:10px;">//</a>
-
 <a href="http://brendanmmmkay.github.io/light.html">
 Light</a>
-
 <br>    
 <br>
-
 <center><a style="font-family:arial;color:#DEFFEC;font-size:10px;">Vidya stream.</a></center>
 <br>
 <center><a href="http://brendanmmmkay.github.io/stream.html">
 Doobs Streams</a>
 <br>
 <br>
-
 <center><p style="font-family:arial;color:#DEFFEC;font-size:10px;">Social Media Platforms</p></center>
 <div id="share-buttons">
     
-
-
-
     
     <!-- Google+ -->
     <a href="https://plus.google.com/b/108376384437201282446/108376384437201282446/posts/p/pub" target="_blank">
         <img src="http://i.imgur.com/1on7sIR.png" width= 6%; alt="Google" />
     </a>
-
     
      
     <!-- Twitter -->
@@ -296,43 +258,25 @@ Doobs Streams</a>
     </a>
   
 <script src="https://apis.google.com/js/platform.js"></script>
-
-
 <script src="https://apis.google.com/js/platform.js"></script>
-
 <br>
 <center><p style="font-family:arial;color:#DEFFEC;font-size:10px;">Media Links At</p></center>
-
-
-
 <center><a href="http://www.last.fm/user/DOOBIEBLAZIKEN">
 Last.fm</a>
-
-
 <a style="font-family:arial;color:#DEFFEC;font-size:10px;">//</a>
-
-
 <a href="http://myanimelist.net/profile/doobieblaziken">
 MyAnimeList</a></center>
-
 <br>
-
-
-
 <p style="font-family:arial;color:#DEFFEC;font-size:10px;">Its chill we got this <a href="http://doobieblaziken.x10.mx/twerk.html">.</a></p>
 <br>
 <br>
 </body>
 </html>
-
   </nav>
-
   <section>
-
 <center><a style="font-family:arial;color:#DEFFEC;font-size:10px;">"storm"</a></center>
 <br>
 <iframe width="360" height="315" src="https://www.youtube.com/embed/zBeatOWB4N0" frameborder="0" allowfullscreen></iframe>
-
   
 <br>
 <br>
@@ -344,6 +288,5 @@ MyAnimeList</a></center>
   
  
   </section>
-  
   
   
