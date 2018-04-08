@@ -1,0 +1,109 @@
+/* Used grid.css from lab to format images next to eachother for comparison */
+
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile-hide {
+	display: none;
+}
+
+.mobile-show {
+	display: block;
+}
+
+.grid-col-1of2 {
+  flex-basis: 50%;
+}
+
+/* nav .grid-col-1of2 {
+  flex-basis: 50%;
+}
+
+ nav .grid-col-1of5 {
+	flex-grow: 1;
+	flex-basis: 100%;
+} */
+
+@media (min-width: 23.5em) {
+
+	nav .grid-col-1of5 {
+		flex-basis: 20%;
+	}
+  nav a {
+    width: 100%;
+  }
+  figure {
+    padding-left: 0rem;
+  }
+  h2 {
+    padding-left: 2rem;
+    margin-top: 8rem;
+  }
+  section.bg {
+    margin-left: 0rem;
+    margin-top: 12rem;
+  }
+}
+
+@media (min-width: 45em) {
+
+  .mobile-show {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: block;
+  }
+
+  figure {
+  	padding-left: 0rem;
+  }
+  h2 {
+    padding-left: 2rem;
+    margin-top: 6rem;
+  }
+	.grid-col-1of2 {
+		flex-basis: 50%;
+    align-self: flex-top;
+	}
+
+	nav .grid-col-1of5 {
+		flex-basis: 100%;
+	}
+  nav a {
+    width: 30%;
+  }
+  section.bg {
+    margin-left: 5rem;
+    margin-top: 12rem;
+  }
+}
+
+@media (min-width: 56.25em) {
+
+	nav .grid-col-1of5 {
+		flex-basis: 100%;
+	}
+  nav a {
+  	width: 20%;
+  }
+  nav {
+      top: 19rem;
+    }
+  section.bg {
+  	margin-left: 16rem;
+    margin-top: 12rem;
+  }
+  h2 {
+    padding-left: 0rem;
+  }
+  h4 {
+    padding-left: 0rem;
+  }
+}
