@@ -3,7 +3,6 @@
 * {
   box-sizing: border-box;
 }
-
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -18,22 +17,59 @@
   display: none;
 }
 
-.grid-col-1of2 {
-  flex-basis: 50%;
-  align-self: flex-end;
-}
-
 /* nav .grid-col-1of2 {
   flex-basis: 50%;
+  add class ->.align-self f
 }
 
  nav .grid-col-1of5 {
 	flex-grow: 1;
 	flex-basis: 100%;
 } */
+@media (min-width: 15em) {
+  .title {
+  	padding: 0rem;
+    /* width: 90%; */
+  	position: absolute;
+  }
+  nav .grid-col-1of5 {
+    flex-basis: 20%;
+  }
+  nav a {
+    width: 100%;
+  }
+  figure {
+    padding-left: 0rem;
+  }
+  section.bg {
+    margin-left: 0rem;
+    margin-top: 12rem;
+  }
+  .bikes {
+    width: 80%;
+    /* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 5%;
+  }
+  .compact {
+    width: 100%;
+    margin-top: 3rem;
+    /* align-self: flex-end; */
+    margin-left: -5%;
+  }
+}
 
 @media (min-width: 23.5em) {
-
+  .title {
+  	padding: 2rem;
+  	position: absolute;
+  }
+  .grid-col-1of2 {
+    flex-basis: 80%;
+    align-self: flex-end;
+    flex-grow: 1;
+  }
 	nav .grid-col-1of5 {
 		flex-basis: 20%;
 	}
@@ -48,16 +84,14 @@
     margin-top: 12rem;
   }
   .bikes {
-    width: 50%;
-    margin-top: 22rem;
+    width: 80%;
     /* align-self: flex-end; */
   }
   h2.bikehead, p.bikehead {
     margin-left: 5%;
-    position: relative;
   }
   .compact {
-    width: 200%;
+    width: 100%;
     margin-top: 3rem;
     /* align-self: flex-end; */
     margin-left: -5%;
@@ -70,9 +104,14 @@
 }
 
 @media (min-width: 45em) {
-
-  figure {
-  	padding-left: 0rem;
+  .title {
+  	padding: 2rem;
+  	position: absolute;
+  }
+  .grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
   }
   .bus {
     width: 50%;
@@ -89,7 +128,6 @@
   }
   h2.bikehead, p.bikehead {
     margin-left: 5%;
-    position: relative;
   }
   .compact {
     width: 80%;
@@ -103,7 +141,6 @@
   }
 	.grid-col-1of2 {
 		flex-basis: 50%;
-    align-self: flex-top;
 	}
 
 	nav .grid-col-1of5 {
@@ -119,7 +156,10 @@
 }
 
 @media (min-width: 56.25em) {
-
+  .title {
+  	padding: 2rem;
+  	position: absolute;
+  }
   .mobile-show {
     display: none;
   }
@@ -136,6 +176,11 @@
   }
   nav {
       top: 19rem;
+    }
+    .grid-col-1of2 {
+      flex-basis: 50%;
+      align-self: flex-end;
+      flex-grow: 1;
     }
   section.bg {
   	margin-left: 16rem;
@@ -156,7 +201,6 @@
   }
   h2.bikehead, p.bikehead {
     margin-left: 30%;
-    position: relative;
   }
   .compact {
   	width: 80%;
