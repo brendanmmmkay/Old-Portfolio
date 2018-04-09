@@ -14,11 +14,13 @@
 }
 
 .mobile-show {
-	display: block;
+	/* display: block; */
+  display: none;
 }
 
 .grid-col-1of2 {
   flex-basis: 50%;
+  align-self: flex-end;
 }
 
 /* nav .grid-col-1of2 {
@@ -41,32 +43,63 @@
   figure {
     padding-left: 0rem;
   }
-  h2 {
-    padding-left: 2rem;
-    margin-top: 8rem;
-  }
   section.bg {
     margin-left: 0rem;
     margin-top: 12rem;
   }
+  .bikes {
+    width: 50%;
+    margin-top: 22rem;
+    /* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 5%;
+    position: relative;
+  }
+  .compact {
+    width: 200%;
+    margin-top: 3rem;
+    /* align-self: flex-end; */
+    margin-left: -5%;
+  }
+  /* .bus {
+  	width: 80%;
+  	margin-top: 3rem;
+  	position: relative;
+  } */
 }
 
 @media (min-width: 45em) {
 
-  .mobile-show {
-    display: none;
-  }
-
-  .mobile-hide {
-    display: block;
-  }
-
   figure {
   	padding-left: 0rem;
   }
-  h2 {
-    padding-left: 2rem;
-    margin-top: 6rem;
+  .bus {
+    width: 50%;
+    margin-top: 20rem;
+  }
+  h2.bushead, p.bushead, h3.bushead {
+      margin-left: 5%;
+  }
+  .bikes {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 22rem;
+    /* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 5%;
+    position: relative;
+  }
+  .compact {
+    width: 80%;
+    margin-top: 25rem;
+    /* align-self: flex-end; */
+    margin-left: -5%;
+  }
+  h2.compacthead, p.compacthead {
+    margin-left: 5%;
+    position: relative;
   }
 	.grid-col-1of2 {
 		flex-basis: 50%;
@@ -80,12 +113,20 @@
     width: 30%;
   }
   section.bg {
-    margin-left: 5rem;
+    margin-left: 0rem;
     margin-top: 12rem;
   }
 }
 
 @media (min-width: 56.25em) {
+
+  .mobile-show {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: block;
+  }
 
 	nav .grid-col-1of5 {
 		flex-basis: 100%;
@@ -100,10 +141,62 @@
   	margin-left: 16rem;
     margin-top: 12rem;
   }
-  h2 {
-    padding-left: 0rem;
+  .bus {
+    width: 50%;
+    margin-top: 20rem;
+  }
+  h2.bushead, p.bushead, h3.bushead {
+  		margin-left: 30%;
+  }
+  .bikes {
+  	width: 50%;
+  	margin-left: 40%;
+  	margin-top: 22rem;
+  	/* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 30%;
+    position: relative;
+  }
+  .compact {
+  	width: 80%;
+  	/* margin-top: 25rem; */
+  	/* align-self: flex-end; */
+  	margin-left: 0%;
+  }
+  h2.compacthead, p.compacthead {
+  	margin-left: 30%;
+  	position: relative;
   }
   h4 {
     padding-left: 0rem;
+  }
+  h5 {
+    margin-top: 20rem;
+    margin-left: -20rem;
+  }
+  section.bg {
+  	position: relative;
+  }
+
+  section.bg::after {
+  	content: "";
+  	background: white;
+  	position: absolute;
+  	top: 8rem;
+  	width: 100%;
+  	left: 10%;
+  	/* height: 83%; */
+    height: 73%;
+  	transition: background 0.5s;
+  }
+
+  section.bg:hover::after {
+  	background: #d2dae2;
+  }
+
+  section.bg h2, section.bg h3, section.bg h5, section.bg p, section.bg img {
+  	position: relative;
+  	z-index: 1;
   }
 }
