@@ -7,7 +7,7 @@
 nav a, nav a:visited {
 	display: inline-block;
 	background-color: rgba(255, 255, 255, 0.5);
-	border-right: 3px solid #ff5e57;
+	border-left: 3px solid #ff5e57;
 	color: black;
 	padding: 0.75em 2em;
 	text-decoration: none;
@@ -54,56 +54,9 @@ section.one {
 	  	margin-left: 16rem;
 }
 
-section.bg {
-	position: relative;
-}
-
-section.bg::after {
-	content: "";
-	background: white;
-	position: absolute;
-	top: 7.8rem;
-	width: 100%;
-	left: 10%;
-	height: 70%;
-	transition: background 0.5s;
-}
-
-section.bg:hover::after {
-	background: #d2dae2;
-}
-
-section.bg h2, section.bg p, section.bg img {
-	position: relative;
-	z-index: 1;
-}
-
 /* nav {
 	z-index: 1;
 } */
-
-@media (max=width: 56.25em) {
-	h1 {
-		margin-top: 6.5rem;
-	}
-}
-
-@media (max-width:45em) {
-	h1 {
-		margin-top: 8.5;
-	}
-}
-
-@media (max-width: 23.5em) {
-	h1 {
-		margin-top: 2rem;
-	}
-	nav {
-		position: relative;
-		left: 0;
-		right: 0;
-	}
-}
 
 /* img {
 	width: 80%;
@@ -122,8 +75,6 @@ section.bg h2, section.bg p, section.bg img {
 }
 
 .bus {
-	width: 50%;
-	margin-top: 20rem;
 	position: relative;
   -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
   animation: myfirst 5s linear 2s infinite alternate;
@@ -134,21 +85,6 @@ section.bg h2, section.bg p, section.bg img {
 @keyframes myfirst {
     from {left: 0px;}
     to {left: 300px;}
-}
-
-.bikes {
-	width: 50%;
-	margin-left: 40%;
-	margin-top: 22rem;
-	/* align-self: flex-end; */
-
-}
-
-.compact {
-	width: 80%;
-	margin-top: 25rem;
-	/* align-self: flex-end; */
-	margin-left: -5%;
 }
 
 body {
@@ -175,20 +111,10 @@ h2 {
 	font-family: 'IBM Plex Serif', serif;
 }
 
-h2.bushead, p.bushead, h3.bushead {
-		margin-left: 30%;
-}
-
-h2.compacthead, p.compacthead {
-	margin-left: 30%;
-	position: relative;
-}
-
 h3 {
-	font-style: none;
-	font-weight: bold;
-	font-size: 1rem;
-	/* line-height: 1.4em; */
+	font-style: italic;
+	font-weight: none;
+	font-size: 0.8rem;
 	color: #ff5e57;
 }
 
@@ -198,6 +124,15 @@ h4 {
 	margin-left: 20rem;
 	font-weight: bold;
 	font-size: 1.5rem;
+}
+
+h5 {
+	position: absolute;
+	font-style: none;
+	font-weight: none;
+	font-size: 4rem;
+	color: #ff5e57;
+	transform: rotate(-90deg);
 }
 
 p, ul, ol {
