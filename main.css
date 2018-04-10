@@ -1,156 +1,279 @@
-/* Used the third lecture starter files to recap how nav, ems and rems work */
+/* Used grid.css from lab to format images next to eachother for comparison */
 
-.css-selector {
-  font-family: 'Open Sans', sans-serif;
+* {
+  box-sizing: border-box;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-nav a, nav a:visited {
-	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.5);
-	border-left: 3px solid #ff5e57;
-	color: black;
-	padding: 0.75em 2em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
+.mobile-hide {
+	display: none;
 }
 
-/* nav a {
-	width: 100%;
+.mobile-show {
+	/* display: block; */
+  display: none;
+}
+
+/* nav .grid-col-1of2 {
+  flex-basis: 50%;
+  add class ->.align-self f
+}
+
+ nav .grid-col-1of5 {
+	flex-grow: 1;
+	flex-basis: 100%;
 } */
-
-nav a:hover, nav a:active, nav a:focus {
-	background-color: #ff5e57;
-	color: white;
+@media (min-width: 15em) {
+  .title {
+  	padding: 0rem;
+    /* width: 90%; */
+  	position: absolute;
+  }
+  nav .grid-col-1of5 {
+    flex-basis: 20%;
+  }
+  nav a {
+    width: 100%;
+  }
+  figure {
+    padding-left: 0rem;
+  }
+  section.bg {
+    margin-left: 0rem;
+    margin-top: 12rem;
+  }
+  .bikes {
+    width: 80%;
+    /* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 5%;
+  }
+  .compact {
+    width: 100%;
+    margin-top: 3rem;
+    /* align-self: flex-end; */
+    margin-left: -5%;
+  }
 }
 
-/* nav a:active {
-	background-color: #ff5e57;
-	color: white;
-} */
-
-nav {
-	position: fixed;
-	left: 1rem;
-	right: 1rem;
+@media (min-width: 23.5em) {
+  .title {
+  	padding: 2rem;
+  	position: absolute;
+  }
+  .grid-col-1of2 {
+    flex-basis: 80%;
+    align-self: flex-end;
+    flex-grow: 1;
+  }
+  .bike-grid-col-1of2 {
+    flex-basis: 80%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 2;
+  }
+  .bikeText-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 1;
+  }
+	nav .grid-col-1of5 {
+		flex-basis: 20%;
+	}
+  nav a {
+    width: 100%;
+  }
+  section.bg {
+    margin-left: 0rem;
+    margin-top: 12rem;
+  }
+  .bikes {
+    width: 80%;
+    /* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 5%;
+  }
+  .compact {
+    width: 100%;
+    margin-top: 3rem;
+    /* align-self: flex-end; */
+    margin-left: -5%;
+  }
+  /* .bus {
+  	width: 80%;
+  	margin-top: 3rem;
+  	position: relative;
+  } */
 }
 
-/* section {
-	margin-left: 10rem;
-} */
+@media (min-width: 45em) {
+  .title {
+  	padding: 2rem;
+  	position: absolute;
+  }
+  .grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+  }
+  .bike-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 1;
+  }
+  .bikeText-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 2;
+  }
+  .bus {
+    width: 50%;
+    margin-top: 20rem;
+  }
+  h2.bushead, p.bushead, h3.bushead {
+      margin-left: 5%;
+  }
+  .bikes {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 22rem;
+    /* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 5%;
+  }
+  .compact {
+    width: 80%;
+    margin-top: 25rem;
+    /* align-self: flex-end; */
+    margin-left: -5%;
+  }
+  h2.compacthead, p.compacthead {
+    margin-left: 5%;
+    position: relative;
+  }
+	.grid-col-1of2 {
+		flex-basis: 50%;
+	}
 
-/* section {
--webkit-transition: background-color 0.9s;
-transition: background-color 0.9s;
+	nav .grid-col-1of5 {
+		flex-basis: 100%;
+	}
+  nav a {
+    width: 30%;
+  }
+  section.bg {
+    margin-left: 0rem;
+    margin-top: 12rem;
+  }
 }
 
-section:hover, section:active, section:focus {
-		background-color: #d2dae2;
-		background-size: 50%;
-} */
+@media (min-width: 56.25em) {
+  .title {
+  	padding: 2rem;
+  	position: absolute;
+  }
+  .mobile-show {
+    display: none;
+  }
 
-section.one {
-			position: relative;
-	  	margin-left: 16rem;
-}
+  .mobile-hide {
+    display: block;
+  }
 
-/* nav {
-	z-index: 1;
-} */
+	nav .grid-col-1of5 {
+		flex-basis: 100%;
+	}
+  nav a {
+  	width: 20%;
+  }
+  nav {
+      top: 19rem;
+    }
+    .grid-col-1of2 {
+      flex-basis: 50%;
+      align-self: flex-end;
+      flex-grow: 1;
+    }
+    .bike-grid-col-1of2 {
+      flex-basis: 50%;
+      align-self: flex-end;
+      flex-grow: 1;
+      order: 1;
+    }
+    .bikeText-grid-col-1of2 {
+      flex-basis: 50%;
+      align-self: flex-end;
+      flex-grow: 1;
+      order: 2;
+    }
+  section.bg {
+  	margin-left: 16rem;
+    margin-top: 12rem;
+  }
+  .bus {
+    width: 50%;
+    margin-top: 20rem;
+  }
+  h2.bushead, p.bushead, h3.bushead {
+  		margin-left: 30%;
+  }
+  .bikes {
+  	width: 50%;
+  	margin-left: 40%;
+  	margin-top: 22rem;
+  	/* align-self: flex-end; */
+  }
+  h2.bikehead, p.bikehead {
+    margin-left: 30%;
+  }
+  .compact {
+  	width: 80%;
+  	/* margin-top: 25rem; */
+  	/* align-self: flex-end; */
+  	margin-left: 0%;
+  }
+  h2.compacthead, p.compacthead {
+  	margin-left: 30%;
+  	position: relative;
+  }
+  h4 {
+    padding-left: 0rem;
+  }
+  h5 {
+    margin-top: 20rem;
+    margin-left: -20rem;
+  }
+  section.bg {
+  	position: relative;
+  }
 
-/* img {
-	width: 80%;
-} */
+  section.bg::after {
+  	content: "";
+  	background: white;
+  	position: absolute;
+  	top: 8rem;
+  	width: 100%;
+  	left: 10%;
+  	/* height: 83%; */
+    height: 73%;
+  	transition: background 0.5s;
+  }
 
-.collage {
-	width: 80%;
-	position: relative;
-	margin-top: 10rem;
-	margin-left: 10rem;
-}
+  section.bg:hover::after {
+  	background: #d2dae2;
+  }
 
-.bus {
-	position: relative;
-  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
-  animation: myfirst 5s linear 2s infinite alternate;
-}
-
-#bus :active{animation-timing-function: ease-in;}
-
-@keyframes myfirst {
-    from {left: 0px;}
-    to {left: 300px;}
-}
-
-body {
-	font-family: Arial, Verdana, sans-serif;
-	font-size: 1em;
-	color: black;
-	padding: 1em;
-}
-
-h1 {
-	font-size: 2rem;
-	font-style: italic;
-	top: 1.5rem;
-	left: 2rem;
-	right: 1rem;
-}
-
-h2 {
-	font-weight: bold;
-	font-size: 2rem;
-	line-height: 1.4em;
-	color: #ff5e57;
-	font-family: 'IBM Plex Serif', serif;
-}
-
-h3 {
-	font-style: italic;
-	font-size: 0.8rem;
-	color: #ff5e57;
-}
-
-h4 {
-	position: absolute;
-	color: #ff5e57;
-	margin-left: 20rem;
-	font-weight: bold;
-	font-size: 1.5rem;
-}
-
-h5 {
-	position: relative;
-	font-size: 4rem;
-	color: #ff5e57;
-	transform: rotate(-90deg);
-}
-
-p, ul, ol {
-	font-size: 0.8rem;
-	line-height: 2.5em;
-	text-align: left;
-  max-width: 20rem;
-	font-family: 'Open Sans', sans-serif;
-}
-
-figcaption {
-	font-size: 0.8rem;
-	font-style: italic;
-}
-
-a {
-	color: #8968CD;
-	font-size: 0.75rem;
-	font-family: 'Open Sans', sans-serif;
-}
-
-
-a:visited {
-	text-decoration: none;
-}
-
-a:active, a:hover {
-	color: #55107E;
-	text-decoration: none;
+  section.bg h2, section.bg h3, section.bg h5, section.bg p, section.bg img {
+  	position: relative;
+  	z-index: 1;
+  }
 }
