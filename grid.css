@@ -70,14 +70,23 @@
     align-self: flex-end;
     flex-grow: 1;
   }
+  .bike-grid-col-1of2 {
+    flex-basis: 80%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 2;
+  }
+  .bikeText-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 1;
+  }
 	nav .grid-col-1of5 {
 		flex-basis: 20%;
 	}
   nav a {
     width: 100%;
-  }
-  figure {
-    padding-left: 0rem;
   }
   section.bg {
     margin-left: 0rem;
@@ -112,6 +121,18 @@
     flex-basis: 50%;
     align-self: flex-end;
     flex-grow: 1;
+  }
+  .bike-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 1;
+  }
+  .bikeText-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 2;
   }
   .bus {
     width: 50%;
@@ -182,6 +203,18 @@
       align-self: flex-end;
       flex-grow: 1;
     }
+    .bike-grid-col-1of2 {
+      flex-basis: 50%;
+      align-self: flex-end;
+      flex-grow: 1;
+      order: 1;
+    }
+    .bikeText-grid-col-1of2 {
+      flex-basis: 50%;
+      align-self: flex-end;
+      flex-grow: 1;
+      order: 2;
+    }
   section.bg {
   	margin-left: 16rem;
     margin-top: 12rem;
@@ -244,3 +277,4 @@
   	z-index: 1;
   }
 }
+
