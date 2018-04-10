@@ -38,8 +38,17 @@
   nav a {
     width: 100%;
   }
-  figure {
-    padding-left: 0rem;
+  .bike-grid-col-1of2 {
+    flex-basis: 80%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 2;
+  }
+  .bikeText-grid-col-1of2 {
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 1;
   }
   section.bg {
     margin-left: 0rem;
