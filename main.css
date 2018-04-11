@@ -60,7 +60,7 @@ section:hover, section:active, section:focus {
 	z-index: -99;
 	position: absolute;
 }
-html {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
