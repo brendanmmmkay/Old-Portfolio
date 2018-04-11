@@ -68,6 +68,9 @@
     margin-left: 0rem;
     margin-top: 12rem;
   }
+  .bus {
+    width: 50%;
+  }
   .bikes {
     width: 80%;
     /* align-self: flex-end; */
@@ -126,6 +129,9 @@
     max-width: 30rem;
     font-size: 1.2rem;
     font-family: 'IBM Plex Serif', serif;
+  }
+  .bus {
+    width: 50%;
   }
   .bikes {
     width: 80%;
@@ -349,4 +355,5 @@
   		transition: color 0.5s;
   	} */
 }
+
 
