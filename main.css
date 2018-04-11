@@ -60,7 +60,7 @@ section:hover, section:active, section:focus {
 	z-index: -99;
 	position: absolute;
 }
-html, body {
+html {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -98,8 +98,8 @@ html, body {
 #bus :active{animation-timing-function: ease-in;}
 
 @keyframes myfirst {
-    from {left: 0px;}
-    to {left: 200px;}
+    from {left: 0%;}
+    to {left: 20%;}
 }
 body {
 	/* font-size: 1em; */
