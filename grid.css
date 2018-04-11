@@ -1,4 +1,5 @@
-/* Used grid.css from lab to format images next to eachother for comparison */
+/* Used grid.css from lab to format images next to eachother for comparison,
+had help from andrew with flex-grow, flex-end */
  * {
      box-sizing: border-box;
 }
@@ -13,6 +14,16 @@
     /* display: block;
      */
      display: none;
+}
+.collageDesktop {
+    display: none;
+    width: 80%;
+    position: relative;
+}
+.collageMobile {
+  display: none;
+  width: 80%;
+  position: relative;
 }
 /* nav .grid-col-1of2 {
      flex-basis: 50%;
@@ -36,6 +47,16 @@
          max-width: 30rem;
          font-size: 1.2rem;
          font-family: 'Source Sans Pro', sans-serif;
+    }
+    .collageDesktop {
+        display: none;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: block;
+      width: 80%;
+      position: relative;
     }
      .goalText {
          color: white;
@@ -91,6 +112,16 @@
      .subTitle {
          margin-left: 15rem;
          margin-top: -4rem;
+    }
+    .collageDesktop {
+        display: none;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: block;
+      width: 80%;
+      position: relative;
     }
      .grid-col-1of2 {
          flex-basis: 80%;
@@ -168,6 +199,16 @@
          font-size: 1.5rem;
          font-family: 'Source Sans Pro', sans-serif;
          margin-left: 25%;
+    }
+    .collageDesktop {
+        display: block;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: none;
+      width: 80%;
+      position: relative;
     }
      .grid-col-1of2 {
          flex-basis: 50%;
@@ -250,6 +291,16 @@
          font-size: 1.5rem;
          font-family: 'Source Sans Pro', sans-serif;
          margin-left: 25%;
+    }
+    .collageDesktop {
+        display: block;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: none;
+      width: 80%;
+      position: relative;
     }
      .goalText {
          color: white;
