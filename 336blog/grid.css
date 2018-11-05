@@ -390,7 +390,7 @@ had help from andrew with flex-grow, flex-end */
     }
      section.bg::after {
          content: "";
-         background: #E1EFDD;
+         background: #FF9257;
          position: absolute;
          top: 8rem;
          width: 100%;
