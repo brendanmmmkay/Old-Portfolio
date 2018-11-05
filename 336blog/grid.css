@@ -1,0 +1,418 @@
+/* Used grid.css from lab to format images next to eachother for comparison,
+had help from andrew with flex-grow, flex-end */
+ * {
+     box-sizing: border-box;
+}
+ .grid {
+     display: flex;
+     flex-wrap: wrap;
+}
+ .mobile-hide {
+     display: none;
+}
+ .mobile-show {
+    /* display: block;
+     */
+     display: none;
+}
+.collageDesktop {
+    display: none;
+    width: 80%;
+    position: relative;
+}
+.collageMobile {
+  display: none;
+  width: 80%;
+  position: relative;
+}
+/* nav .grid-col-1of2 {
+     flex-basis: 50%;
+     add class ->.align-self f
+}
+ nav .grid-col-1of5 {
+     flex-grow: 1;
+     flex-basis: 100%;
+}
+ */
+ @media (min-width: 15em) {
+     .title {
+         padding: 0rem;
+    }
+     .subTitle {
+         margin-left: 12rem;
+         margin-top: -1rem;
+    }
+     .promptText {
+         color: #ff5e57;
+         max-width: 30rem;
+         font-size: 1.2rem;
+         font-family: 'Source Sans Pro', sans-serif;
+    }
+    .collageDesktop {
+        display: none;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: block;
+      width: 80%;
+      position: relative;
+    }
+     .goalText {
+         color: white;
+         font-size: 1rem;
+         font-family: 'Source Sans Pro', sans-serif;
+         text-align: center;
+    }
+     nav .grid-col-1of5 {
+         flex-basis: 20%;
+    }
+     nav a {
+         width: 100%;
+    }
+     .bike-grid-col-1of2 {
+         flex-basis: 80%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 2;
+    }
+     .bikeText-grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 1;
+    }
+     section.bg {
+         margin-left: 0rem;
+         margin-top: 12rem;
+    }
+     .bus {
+         width: 50%;
+         margin-top: 1rem;
+         margin-left: 15rem;
+    }
+     .bikes {
+         width: 80%;
+        /* align-self: flex-end;
+         */
+    }
+     h2.bikehead, p.bikehead {
+         margin-left: 5%;
+    }
+     .compact {
+         width: 100%;
+         margin-top: 3rem;
+        /* align-self: flex-end;
+         */
+         margin-left: -5%;
+    }
+}
+ @media (min-width: 23.5em) {
+     .title {
+         padding: 3rem;
+    }
+     .subTitle {
+         margin-left: 15rem;
+         margin-top: -4rem;
+    }
+    .collageDesktop {
+        display: none;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: block;
+      width: 80%;
+      position: relative;
+    }
+     .grid-col-1of2 {
+         flex-basis: 80%;
+         align-self: flex-end;
+         flex-grow: 1;
+    }
+     .bike-grid-col-1of2 {
+         flex-basis: 80%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 2;
+    }
+     .bikeText-grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 1;
+    }
+     nav .grid-col-1of5 {
+         flex-basis: 20%;
+    }
+     nav a {
+         width: 100%;
+    }
+     section.bg {
+         margin-left: 0rem;
+         margin-top: 12rem;
+    }
+     .promptText2, .promptText {
+         margin-left: 5%;
+    }
+     .promptText {
+         color: #ff5e57;
+         max-width: 30rem;
+         font-size: 1.2rem;
+         font-family: 'Source Sans Pro', sans-serif;
+    }
+     .bus {
+         width: 50%;
+         margin-top: 1rem;
+         margin-left: 15rem;
+    }
+     .bikes {
+         width: 80%;
+        /* align-self: flex-end;
+         */
+    }
+     h2.bikehead, p.bikehead {
+         margin-left: 5%;
+    }
+     .compact {
+         width: 100%;
+         margin-top: 3rem;
+        /* align-self: flex-end;
+         */
+         margin-left: -5%;
+    }
+    /* .bus {
+         width: 80%;
+         margin-top: 3rem;
+         position: relative;
+    }
+     */
+}
+ @media (min-width: 45em) {
+     .title {
+         padding-top: 3rem;
+         padding: 3rem;
+    }
+     .subTitle {
+         margin-left: 15rem;
+         margin-top: -4rem;
+    }
+     .promptText {
+         color: #ff5e57;
+         max-width: 30rem;
+         font-size: 1.5rem;
+         font-family: 'Source Sans Pro', sans-serif;
+         margin-left: 25%;
+    }
+    .collageDesktop {
+        display: block;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: none;
+      width: 80%;
+      position: relative;
+    }
+     .grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+    }
+     .bike-grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 1;
+    }
+     .bikeText-grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 2;
+    }
+     .bus {
+         width: 50%;
+         margin-top: 1rem;
+         margin-left: 15rem;
+    }
+     h2.bushead, p.bushead, h3.bushead {
+         margin-left: 5%;
+    }
+     .bikes {
+         width: 60%;
+         margin-left: 20%;
+         margin-top: 22rem;
+        /* align-self: flex-end;
+         */
+    }
+     h2.bikehead, p.bikehead {
+         margin-left: 5%;
+    }
+     .compact {
+         width: 80%;
+         margin-top: 25rem;
+        /* align-self: flex-end;
+         */
+         margin-left: -5%;
+    }
+     h2.compacthead, p.compacthead {
+         margin-left: 5%;
+         position: relative;
+    }
+     .grid-col-1of2 {
+         flex-basis: 50%;
+    }
+     .promptText2 {
+         margin-left: 25%;
+    }
+     nav .grid-col-1of5 {
+         flex-basis: 100%;
+    }
+     nav a {
+         width: 30%;
+    }
+     section.bg {
+         margin-left: 0rem;
+         margin-top: 12rem;
+    }
+}
+ @media (min-width: 56.25em) {
+     .title {
+         padding-top: 3rem;
+         padding: 3rem;
+    }
+     .subTitle {
+         margin-left: 15rem;
+         margin-top: -4rem;
+    }
+     .prompt {
+        /* padding: 3em;
+         */
+    }
+     .promptText {
+         color: #ff5e57;
+         max-width: 30rem;
+         font-size: 1.5rem;
+         font-family: 'Source Sans Pro', sans-serif;
+         margin-left: 25%;
+    }
+    .collageDesktop {
+        display: block;
+        width: 80%;
+        position: relative;
+    }
+    .collageMobile {
+      display: none;
+      width: 80%;
+      position: relative;
+    }
+     .goalText {
+         color: white;
+         font-size: 1.5rem;
+         font-family: 'Source Sans Pro', sans-serif;
+    }
+     .mobile-show {
+         display: none;
+    }
+     .mobile-hide {
+         display: block;
+    }
+     nav .grid-col-1of5 {
+         flex-basis: 100%;
+    }
+     nav a {
+         width: 20%;
+    }
+     nav {
+         top: 19rem;
+    }
+     .grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+    }
+     .bike-grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 1;
+    }
+     .bikeText-grid-col-1of2 {
+         flex-basis: 50%;
+         align-self: flex-end;
+         flex-grow: 1;
+         order: 2;
+    }
+     section.one {
+         position: relative;
+         margin-left: 16rem;
+    }
+     section.bg {
+         margin-left: 16rem;
+         margin-top: 12rem;
+    }
+     .bus {
+         width: 50%;
+         margin-top: 1rem;
+         margin-left: 15rem;
+    }
+     h2.bushead, p.bushead, h3.bushead {
+         margin-left: 30%;
+    }
+     .bikes {
+         width: 50%;
+         margin-left: 40%;
+         margin-top: 22rem;
+        /* align-self: flex-end;
+         */
+    }
+     h2.bikehead, p.bikehead {
+         margin-left: 30%;
+    }
+     .compact {
+         width: 80%;
+        /* margin-top: 25rem;
+         */
+        /* align-self: flex-end;
+         */
+         margin-left: 0%;
+    }
+     h2.compacthead, p.compacthead {
+         margin-left: 30%;
+         position: relative;
+    }
+     .promptText2 {
+         margin-left: 25%;
+    }
+     section.bg {
+         position: relative;
+    }
+     section.bg::after {
+         content: "";
+         background: #E1EFDD;
+         position: absolute;
+         top: 8rem;
+         width: 100%;
+         left: 10%;
+        /* height: 83%;
+         */
+         height: 73%;
+         transition: background 0.9s;
+    }
+     section.bg:hover::after {
+        /* background: #d2dae2;
+         */
+         background-color: rgba(255, 255, 255, 0.8);
+    }
+     section.bg h2, section.bg h3, section.bg h5, section.bg p, section.bg img {
+         position: relative;
+         z-index: 1;
+    }
+    /* section:hover {
+         color: blue;
+         -webkit-transition: color 0.5s;
+         transition: color 0.5s;
+    }
+     */
+}
