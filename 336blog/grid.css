@@ -284,7 +284,7 @@ had help from andrew with flex-grow, flex-end */
     }
      .subTitle {
          margin-left: 15rem;
-         margin-top: -4rem;
+         /* margin-top: -4rem; */
     }
      .prompt {
         /* padding: 3em;
