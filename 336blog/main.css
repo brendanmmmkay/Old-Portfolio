@@ -1,7 +1,7 @@
 /* Used the third lecture starter files to recap how nav, ems and rems work,
 used w3schools to help with css animation, had andrew's help for box shadows */
 #hello {
-    height:3000px;
+    height:1000px;
 }
 
  nav a, nav a:visited {
@@ -84,6 +84,10 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      height: 10rem;
 }
 
+.white {
+  background-color: white;
+}
+
 }
  body {
 
@@ -112,6 +116,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      max-width: 10rem;
 }
  h2 {
+
      font-size: 15rem;
      margin-left: 8rem;
      line-height: 1.4em;
@@ -135,18 +140,17 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      color: #ff5e57;
      transform: rotate(-90deg);
      */
-     color: grey;
+     color: black;
      max-width: 30rem;
      line-height: 2em;
      font-size: 1rem;
      font-family: 'Source Sans Pro', sans-serif;
+     position: relative;
 }
  h6 {
-     /* position: relative; */
-     font-size: 1rem;
-    /* line-height: 2.5em;
-     */
-     color: white;
+     position: absolute;
+     font-size: 12rem;
+     color: #FF9257;
      font-family: 'Source Sans Pro', sans-serif;
 }
  p, ul, ol {
@@ -155,7 +159,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      text-align: left;
      max-width: 20rem;
      font-family: 'Source Sans Pro', sans-serif;
-     color: white;
+     color: black;
 }
  figcaption {
      font-size: 0.8rem;
