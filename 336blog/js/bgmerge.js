@@ -4,9 +4,9 @@ $(document).ready(function() {
         ,
         tEnd = 200 // End transition
         ,
-        cStart = [42, 46, 255, 1.0] // Start color
+        cStart = [255, 255, 240, 1.0] // Start color
         ,
-        cEnd = [255, 146, 87, 1.0] // End color
+        cEnd = [232, 177, 0, 1.0] // End color
         ,
         cDiff = [
             cEnd[0] - cStart[0],
