@@ -6,7 +6,7 @@ $(document).ready(function() {
         ,
         cStart = [141, 212, 169, 1.0] // Start color
         ,
-        cEnd = [3, 140, 115, 1.0] // End color
+        cEnd = [3, 115, 140, 1.0] // End color
         ,
         cDiff = [
             cEnd[0] - cStart[0],
