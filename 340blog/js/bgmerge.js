@@ -4,7 +4,7 @@ $(document).ready(function() {
         ,
         tEnd = 200 // End transition
         ,
-        cStart = [141, 212, 169, 1.0] // Start color
+        cStart = [3, 140, 115, 1.0] // Start color
         ,
         cEnd = [3, 115, 140, 1.0] // End color
         ,

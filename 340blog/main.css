@@ -60,10 +60,12 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      width: 100%;
      z-index: -99;
      position: absolute;
+     background-color: black;
 }
  html {
      max-width: 100%;
      overflow-x: hidden;
+     background-color: black;
 }
 /* html, body {
      max-width: 100%;
@@ -78,15 +80,15 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      width: 80%;
 }
  */
- .goalBar {
+ /* .goalBar {
      background-color: #ff5e57;
      width: 100%;
      height: 10rem;
-}
+} */
 
-.white {
-  background-color: white;
-}
+/* .white {
+  background-color: black;
+} */
 
 }
  body {
@@ -101,6 +103,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
 }
  section {
      padding: 1em;
+
 }
  h1 {
     /* padding-left: 3rem;
@@ -111,7 +114,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      margin-left: 8rem;
      font-size: 16rem;
      line-height: 1.4em;
-     color: #E55764;
+     color: #FFDA4F;
      font-family: 'Source Sans Pro', sans-serif;
      max-width: 10rem;
 }
@@ -120,7 +123,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      font-size: 15rem;
      margin-left: 8rem;
      line-height: 1.4em;
-     color: #AC597A;
+     color: #E55764;
      font-family: 'Source Sans Pro', sans-serif;
 }
  h3 {
@@ -140,7 +143,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      color: #ff5e57;
      transform: rotate(-90deg);
      */
-     color: black;
+     color: white;
      max-width: 30rem;
      line-height: 2em;
      font-size: 1rem;
@@ -159,7 +162,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      text-align: left;
      max-width: 20rem;
      font-family: 'Source Sans Pro', sans-serif;
-     color: black;
+     color: white;
 }
  figcaption {
      font-size: 0.8rem;
