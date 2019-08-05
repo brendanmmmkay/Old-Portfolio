@@ -1,0 +1,23 @@
+/* Used grid.css from lab to format images next to eachother for comparison,
+had help from andrew with flex-grow, flex-end */
+ * {
+     box-sizing: border-box;
+}
+ .grid {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+
+ @media (min-width: 15em) {
+
+}
+ @media (min-width: 23.5em) {
+
+}
+ @media (min-width: 45em) {
+
+}
+ @media (min-width: 56.25em) {
+
+}
