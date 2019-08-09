@@ -1,0 +1,49 @@
+
+  @font-face {
+  font-family: Circular;
+  src: url(../type/circular-black.woff);
+  }
+  a {
+ font-family:Circular;
+ font-size: 5rem;
+  }
+
+
+.peakflowcolour {
+  fill:#ee8531;
+}
+
+#peakflow {
+  position: absolute;
+}
+
+.spacerblue{
+fill:#2873ac;
+}
+.spacergrey{
+fill:#b7b7b8;opacity:0.5;
+}
+
+#spacer {
+  position: absolute;
+}
+
+#puff {
+  position: absolute;
+}
+.puffblue{
+fill:#58bad6;
+}
+.puffgrey{
+fill:#e5e5e4;
+}
+
+#outline {
+  position: absolute;
+}
+.outlinefill{
+  fill:none;
+  stroke:#ebead3;
+  stroke-miterlimit:10;
+  stroke-width:4px;
+}
