@@ -32,10 +32,10 @@ had help from andrew with flex-grow, flex-end */
     .collageMobile {
       position: absolute;
       display: block;
-      /* width: 100%; */
+      width: 100%;
       z-index: 0;
     }
-    .collageMobiledrop {
+    .collageMobileDrop {
       position: absolute;
       display: block;
       width: 100%;
@@ -52,10 +52,10 @@ had help from andrew with flex-grow, flex-end */
    .collageMobile {
      position: absolute;
      display: block;
-     /* width: 100%; */
+     width: 100%;
      z-index: 0;
    }
-   .collageMobiledrop {
+   .collageMobileDrop {
      position: absolute;
      display: block;
      width: 100%;
