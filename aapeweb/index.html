@@ -11,25 +11,26 @@
 
 <!-- <script src"combinee.js"></script> -->
 
+<script>
+window.addEventListener('scroll', function(e) {
+  const target = document.querySelector('.scroll');
+  var scrolled = window.pageYOffset;
+  var rate = scrolled * 0.05;
+  target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+});
+</script>
+
+<section>
+    <img alt="Dcover" src="img/cover.png" class="collageDesktop">
+    <img alt="Ddrop" src="img/drop.png" class="collageDesktopDrop scroll">
+    <img alt="mob-cover" src="img/mobile-cover.png" class="collageMobile">
+    <img alt="mob-drop" src="img/mobile-drop.png" class="collageMobileDrop scroll">
+</section>
+
   </head>
   <body>
-    <script>
-    window.addEventListener('scroll', function(e) {
-      const target = document.querySelector('.scroll');
-      var scrolled = window.pageYOffset;
-      var rate = scrolled * 0.05;
-      target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
-    });
-    </script>
 
-    <section>
-        <img alt="Dcover" src="img/cover.png" class="collageDesktop">
-        <img alt="Ddrop" src="img/drop.png" class="collageDesktopDrop scroll">
-        <img alt="mob-cover" src="img/mobile-cover.png" class="collageMobile">
-        <img alt="mob-drop" src="img/mobile-drop.png" class="collageMobileDrop scroll">
-    </section>
 
-  <a>hellow world aape</a>
 
   <div class="push">
 
@@ -97,6 +98,10 @@
           });
 
   </script>
+
+  <section>
+    <a>hellow world aape</a>
+  </section>
 
 </body>
 </html>
