@@ -30,16 +30,12 @@ had help from andrew with flex-grow, flex-end */
      display: none;
      }
     .collageMobile {
-      position: absolute;
-      display: block;
       width: 100%;
-      z-index: 0;
+      display: inline;
     }
     .collageMobileDrop {
-      position: absolute;
-      display: block;
       width: 100%;
-      z-index: -2;
+      display: inline;
     }
 }
  @media (min-width: 23.5em) {
@@ -50,30 +46,22 @@ had help from andrew with flex-grow, flex-end */
     display: none;
     }
    .collageMobile {
-     position: absolute;
-     display: block;
      width: 100%;
-     z-index: 0;
+     display: inline;
    }
    .collageMobileDrop {
-     position: absolute;
-     display: block;
      width: 100%;
-     z-index: -2;
+     display: inline;
    }
 }
  @media (min-width: 45em) {
    .collageDesktop {
-   position: absolute;
-   display: block;
    width: 100%;
-   z-index: -2;
+   display: inline;
    }
    .collageDesktopDrop {
-   position: absolute;
-   display: block;
    width: 100%;
-   z-index: -2;
+   display: inline;
    }
    .collageMobile {
      display: none;
@@ -90,16 +78,12 @@ had help from andrew with flex-grow, flex-end */
    display: inline;
    }
    .collageDesktop {
-   position: absolute;
-   display: block;
+   display: inline;
    width: 100%;
-   z-index: 0;
    }
    .collageDesktopDrop {
-   position: absolute;
-   display: block;
+   display: inline;
    width: 100%;
-   z-index: -2;
    }
    .collageMobile {
      display: none;
