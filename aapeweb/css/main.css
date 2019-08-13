@@ -5,6 +5,7 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
 .parallax__layer {
   position: absolute;
@@ -42,6 +43,11 @@
   .push {
     padding-top: 90rem;
   }
+  .animbg {
+    background-color: black;
+  }
+
+/* SVG styling */
 
 .peakflowcolour {
   fill:#ee8531;
@@ -80,4 +86,14 @@ fill:#e5e5e4;
   stroke:#ebead3;
   stroke-miterlimit:10;
   stroke-width:4px;
+}
+
+#aape {
+  position: absolute;
+}
+.aapeyellow{
+  fill:#fffdf4;
+}
+.aapewhite{
+  fill:#f5bf32;
 }
