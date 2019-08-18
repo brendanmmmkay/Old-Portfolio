@@ -1,12 +1,12 @@
 /* Used grid.css from lab to format images next to eachother for comparison,
 had help from andrew with flex-grow, flex-end */
- * {
+ /* * {
      box-sizing: border-box;
 }
  .grid {
      display: flex;
      flex-wrap: wrap;
-}
+} */
 .mobile-hide {
  display: none;
  }
@@ -36,6 +36,9 @@ had help from andrew with flex-grow, flex-end */
     .collageMobileDrop {
       width: 100%;
       display: inline;
+    }
+    .vimeopush {
+      padding-top: 20rem;
     }
 }
  @media (min-width: 23.5em) {
@@ -90,5 +93,14 @@ had help from andrew with flex-grow, flex-end */
    }
    .collageMobileDrop {
      display: none;
+   }
+   .grid-col-1of3 {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+   }
+   .vimeopush {
+     padding-top: 70rem;
    }
 }
