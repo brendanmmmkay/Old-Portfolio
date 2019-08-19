@@ -38,7 +38,11 @@ had help from andrew with flex-grow, flex-end */
       display: inline;
     }
     .vimeopush {
-      padding-top: 20rem;
+      padding-top: 5rem;
+    }
+    h2 {
+      max-width: 50rem;
+      font-size: 1.5rem;
     }
 }
  @media (min-width: 23.5em) {
@@ -101,6 +105,13 @@ had help from andrew with flex-grow, flex-end */
      justify-content: center;
    }
    .vimeopush {
-     padding-top: 70rem;
+     padding-top: 57rem;
+   }
+   h2 {
+     max-width: 40rem;
+     font-size: 2rem;
+   }
+   a {
+     max-width: 40rem;
    }
 }

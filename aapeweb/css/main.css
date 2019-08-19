@@ -41,25 +41,24 @@
   src: url(../type/circular-black.woff);
   }
   h2 {
- font-family:Circular;
- font-size: 2rem;
+  font-family:Circular;
   line-height: 1.4em;
   color: #ff5e57;
-  max-width: 35rem;
   display: inline-block;
   text-align: left;
+  padding: 1.5rem;
   }
   @font-face {
   font-family: Avenir;
   src: url(../type/Avenir-Medium.woff);
   }
   a {
- font-family:Avenir;
- font-size: 0.8rem;
+   font-family:Avenir;
+   font-size: 0.8rem;
   line-height: 2.5em;
   text-align: left;
-  max-width: 20rem;
   display: inline-block;
+  padding: 1rem;
   }
   .textalign{
     text-align: center;
@@ -76,6 +75,9 @@
   }
   .darq {
     background-color: black;
+  }
+  .hailmary {
+    -webkit-overflow-scrolling: touch;
   }
 
 /* SVG styling */
