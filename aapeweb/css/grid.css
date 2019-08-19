@@ -108,10 +108,11 @@ had help from andrew with flex-grow, flex-end */
      padding-top: 57rem;
    }
    h2 {
-     max-width: 40rem;
-     font-size: 2rem;
+     max-width: 45rem;
+     font-size: 3rem;
    }
    a {
-     max-width: 40rem;
+     /* max-width: 40rem; */
+     max-width: 29rem;
    }
 }

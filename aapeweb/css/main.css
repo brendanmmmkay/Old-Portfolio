@@ -42,23 +42,26 @@
   }
   h2 {
   font-family:Circular;
-  line-height: 1.4em;
-  color: #ff5e57;
+  line-height: 0.9em;
+  color: #EEB91D;
   display: inline-block;
   text-align: left;
-  padding: 1.5rem;
+  padding: 0.5rem;
+  letter-spacing: -2px;
   }
   @font-face {
   font-family: Avenir;
   src: url(../type/Avenir-Medium.woff);
   }
   a {
-   font-family:Avenir;
-   font-size: 0.8rem;
-  line-height: 2.5em;
+  font-family:Avenir;
+  line-height: 1.5em;
+  font-size: 1rem;
+  /* line-height: 2.5em; */
   text-align: left;
   display: inline-block;
   padding: 1rem;
+  color: #AEA989;
   }
   .textalign{
     text-align: center;
@@ -71,7 +74,7 @@
     background-color: #5CB335;
   }
   .bg2 {
-    background-color: white;
+    background-color: #FFFDEF;
   }
   .darq {
     background-color: black;
