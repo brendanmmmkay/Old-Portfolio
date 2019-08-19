@@ -20,7 +20,7 @@
   transform: translateZ(0);
 }
 .parallax__layer--back {
-  position: -webkit-sticky;
+/*   position: -webkit-sticky; */
   transform: translateZ(-0.1px) scale(1.1);
 }
 .parallax__group {
@@ -79,7 +79,7 @@
     background-color: #FFFDEF;
   }
   .darq {
-    background-color: red;
+    background-color: blue;
   }
 /* SVG styling */
 
