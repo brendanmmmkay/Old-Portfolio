@@ -1,0 +1,145 @@
+/* Pure CSS Parallax by Keith clark */
+@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+  /* ... parallax styles ... */
+  .parallax {
+    /* scroll-behavior: smooth; */
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .parallax__layer--base {
+    transform: translateZ(0);
+  }
+  .parallax__layer--back {
+    transform: translateZ(-0.1px) scale(1.1);
+  }
+  .parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%);
+  }
+}
+.width {
+  width: 100%;
+}
+
+  @font-face {
+  font-family: Circular;
+  src: url(../type/circular-black.woff);
+  }
+  h2 {
+  font-family:Circular;
+  line-height: 0.9em;
+  color: #EEB91D;
+  display: inline-block;
+  text-align: left;
+  padding: 0.5rem;
+  letter-spacing: -2px;
+  }
+  @font-face {
+  font-family: Avenir;
+  src: url(../type/Avenir-Medium.woff);
+  }
+  a {
+  font-family:Avenir;
+  line-height: 1.5em;
+  font-size: 1rem;
+  /* line-height: 2.5em; */
+  text-align: left;
+  display: inline-block;
+  padding: 1rem;
+  color: #AEA989;
+  }
+  .textalign{
+    text-align: center;
+  }
+
+  .push {
+    padding-top: 50rem;
+  }
+  .push2 {
+    padding-top: 5rem;
+  }
+  .productpad {
+    padding: 3rem;
+  }
+  figcaption {
+    color: #AEA989;
+    font-family:Avenir;
+    font-size: 0.8rem;
+    text-align: bottom;
+}
+  .bg1 {
+    /* background-color: #5CB335; */
+    /* background-color: #509C21; */
+    background-color: #009b1d;
+  }
+  .bg2 {
+    background-color: #FFFDEF;
+  }
+  .darq {
+    background-color: black;
+  }
+/* SVG styling */
+
+.peakflowcolour {
+  fill:#ee8531;
+}
+
+#peakflow {
+  position: absolute;
+}
+
+.spacerblue{
+fill:#2873ac;
+}
+.spacergrey{
+fill:#b7b7b8;opacity:0.5;
+}
+
+#spacer {
+  position: absolute;
+}
+
+#puff {
+  position: absolute;
+}
+.puffblue{
+fill:#58bad6;
+}
+.puffgrey{
+fill:#e5e5e4;
+}
+
+#outline {
+  position: absolute;
+}
+.outlinefill{
+  fill:none;
+  stroke:#ebead3;
+  stroke-miterlimit:10;
+  stroke-width:4px;
+}
+
+#aape {
+  position: absolute;
+}
+.aapeyellow{
+  fill:#fffdf4;
+}
+.aapewhite{
+  fill:#f5bf32;
+}
