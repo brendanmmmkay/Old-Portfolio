@@ -32,11 +32,11 @@ had help from andrew with flex-grow, flex-end */
     .collageMobile {
       width: 100%;
       display: inline;
-      z-index: 1;
     }
     .collageMobileDrop {
       width: 100%;
       display: inline;
+      position: absolute;
       z-index: 0;
     }
     .vimeopush {
@@ -57,11 +57,11 @@ had help from andrew with flex-grow, flex-end */
    .collageMobile {
      width: 100%;
      display: inline;
-     z-index: 1;
    }
    .collageMobileDrop {
      width: 100%;
      display: inline;
+     position: absolute;
      z-index: 0;
    }
 }
@@ -73,6 +73,8 @@ had help from andrew with flex-grow, flex-end */
    .collageDesktopDrop {
    width: 100%;
    display: inline;
+   position: absolute;
+   z-index: 0;
    }
    .collageMobile {
      display: none;
@@ -95,6 +97,8 @@ had help from andrew with flex-grow, flex-end */
    .collageDesktopDrop {
    display: inline;
    width: 100%;
+   position: absolute;
+   z-index: 0;
    }
    .collageMobile {
      display: none;

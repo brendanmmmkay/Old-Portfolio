@@ -83,13 +83,15 @@
     text-align: bottom;
 }
   .bg1 {
-    background-color: #5CB335;
+    /* background-color: #5CB335; */
+    /* background-color: #509C21; */
+    background-color: #009b1d;
   }
   .bg2 {
     background-color: #FFFDEF;
   }
   .darq {
-    background-color: pink;
+    background-color: black;
   }
 /* SVG styling */
 
