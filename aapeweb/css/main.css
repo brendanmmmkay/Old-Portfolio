@@ -1,40 +1,40 @@
 /* Pure CSS Parallax by Keith clark */
+@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+  /* ... parallax styles ... */
+  .parallax {
+    /* scroll-behavior: smooth; */
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 
-.parallax {
-  /* scroll-behavior: smooth; */
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-0.1px) scale(1.1);
-}
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-  /* margin-left: calc(100% - 100vw);
-  margin-right: calc(100% - 100vw);
-  padding-left: calc(100vw - 100%);
-  padding-right: calc(100vw - 100%); */
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .parallax__layer--base {
+    transform: translateZ(0);
+  }
+  .parallax__layer--back {
+    transform: translateZ(-0.1px) scale(1.1);
+  }
+  .parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    /* margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%); */
+  }
 }
 .width {
   width: 100%;
 }
-
-
 
   @font-face {
   font-family: Circular;
@@ -70,6 +70,18 @@
   .push {
     padding-top: 50rem;
   }
+  .push2 {
+    padding-top: 5rem;
+  }
+  .productpad {
+    padding: 3rem;
+  }
+  figcaption {
+    color: #AEA989;
+    font-family:Avenir;
+    font-size: 0.8rem;
+    text-align: bottom;
+}
   .bg1 {
     background-color: #5CB335;
   }
@@ -77,7 +89,7 @@
     background-color: #FFFDEF;
   }
   .darq {
-    background-color: yellow;
+    background-color: black;
   }
 /* SVG styling */
 
