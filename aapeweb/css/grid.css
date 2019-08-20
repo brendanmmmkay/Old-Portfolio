@@ -32,10 +32,12 @@ had help from andrew with flex-grow, flex-end */
     .collageMobile {
       width: 100%;
       display: inline;
+      z-index: 1;
     }
     .collageMobileDrop {
       width: 100%;
       display: inline;
+      z-index: 0;
     }
     .vimeopush {
       padding-top: 5rem;
@@ -55,10 +57,12 @@ had help from andrew with flex-grow, flex-end */
    .collageMobile {
      width: 100%;
      display: inline;
+     z-index: 1;
    }
    .collageMobileDrop {
      width: 100%;
      display: inline;
+     z-index: 0;
    }
 }
  @media (min-width: 45em) {
