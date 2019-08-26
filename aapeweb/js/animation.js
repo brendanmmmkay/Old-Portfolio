@@ -1,7 +1,7 @@
 const timeline = anime.timeline({
 loop: true,
 autoplay: true,
-duration: 1600,
+duration: 2000,
 easing: 'easeInOutSine',
 });
 
@@ -10,7 +10,7 @@ targets: '#puff',
 delay: 400,
 translateX: [
 {
-  value: [175, 85],
+  value: [150, 85],
   duration: 900,
 },
 {
@@ -29,25 +29,34 @@ translateX: 130,
 .add({
 targets: '#peakflow',
 duration: 870,
-translateX: [300, 130]
+translateX: [250, 130]
 }, '-=900')
 
 .add({
 targets: '#outline',
 duration: 870,
 translateX: [110,110],
-translateY: [-200, 2]
+})
+
+.add({
+  targets:'#outline',
+  delay: 173,
+  opacity: [0, 100],
 })
 
 .add({
 targets: '#aape',
 duration: 870,
-translateX: [96,96],
-translateY: [-200, 1.5]
+translateX: [93,93],
+// translateY: [-200, 1.5]
 }, '+=900')
 
 .add({
-// targets: '#outline',
-// translateX: [110, 116],
+  targets:'#aape',
+  delay: 400,
+  opacity: [0, 100],
+})
+
+.add({
 duration: 2000,
 })
