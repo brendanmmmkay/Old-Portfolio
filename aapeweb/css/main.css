@@ -127,11 +127,17 @@ fill:#e5e5e4;
 #outline {
   position: absolute;
 }
-.outlinefill{
+.uh{
   fill:none;
   stroke:#ebead3;
   stroke-miterlimit:10;
   stroke-width:4px;
+}
+
+.path {
+  fill:none;
+  /* stroke:#ebead3; */
+  stroke: black;
 }
 
 #aape {
