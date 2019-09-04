@@ -32,17 +32,33 @@ duration: 870,
 translateX: [250, 130]
 }, '-=900')
 
-.add({
-targets: '#outline',
-duration: 870,
-translateX: [110,110],
-})
+// .add({
+// targets: '#outline',
+// duration: 870,
+// translateX: [110,110],
+// })
+//
+// .add({
+//   targets:'#outline',
+//   delay: 173,
+//   opacity: [0, 100],
+// })
 
 .add({
-  targets:'#outline',
-  delay: 173,
-  opacity: [0, 100],
-})
+targets: '#outline',
+translateX: [110, 110],
+duration: 10,
+opacity: [0, 100]
+}, '+=0')
+
+.add({
+targets: '#outline path',
+strokeDashoffset: [anime.setDashoffset, 0],
+easing: "easeInOutCubic",
+duration: 870,
+delay: function(el, i) { return i * 250 },
+opacity: [0, 100]
+}, '+=0')
 
 .add({
 targets: '#aape',
