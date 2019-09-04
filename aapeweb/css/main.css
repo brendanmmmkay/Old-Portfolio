@@ -35,7 +35,11 @@
 .width {
   width: 100%;
 }
-
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
   @font-face {
   font-family: Circular;
   src: url(../type/circular-black.woff);
@@ -48,6 +52,16 @@
   text-align: left;
   padding: 0.5rem;
   letter-spacing: -2px;
+  }
+  h3 {
+    font-family:Circular;
+    line-height: 0.9em;
+    color: #EEB91D;
+    display: inline-block;
+    margin: 0.2rem;
+    text-align: left;
+    padding: 0.5rem;
+    letter-spacing: -2px;
   }
   @font-face {
   font-family: Avenir;
@@ -63,15 +77,37 @@
   padding: 1rem;
   color: #AEA989;
   }
+  p {
+    font-family:Avenir;
+    line-height: 1.5em;
+    font-size: 1rem;
+    /* line-height: 2.5em; */
+    text-align: left;
+    display: inline-block;
+    padding: 1rem;
+    color: #AEA989;
+    max-width: 30rem;
+  }
+  p span
+{
+    display: block;
+}
   .textalign{
     text-align: center;
   }
-
+  .centertry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .relative {
+        position: relative;
+  }
   .push {
     padding-top: 50rem;
   }
   .push2 {
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
   .productpad {
     padding: 3rem;
@@ -90,9 +126,48 @@
   .bg2 {
     background-color: #FFFDEF;
   }
+
+  .yellow-square {
+  background-color: #FFDC00;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+  .drop {
+    margin-top: -40rem;
+    position: absolute;
+    z-index: 0;
+  }
   .darq {
     background-color: black;
   }
+  .videostyle {
+    max-width: 20rem;
+    margin-right: 30%;
+  }
+  /* .bgmerge {
+    color: #000;
+    background-color: #f4f4f4;
+    transition: background-color 1s ease;
+  } */
+
+  /* panel styles */
+  .panel {
+    /* min height incase content is higher than window height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    /* outline: 10px solid hotpink; */
+    /* turn above on to see the edge of panels */
+  }
+
+  /* colours */
+  .color-violet {
+    background-color: #7A4EAB;
+  }
+
 /* SVG styling */
 
 .peakflowcolour {
