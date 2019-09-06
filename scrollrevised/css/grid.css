@@ -36,8 +36,8 @@ had help from andrew with flex-grow, flex-end */
     .collageMobileDrop {
       width: 100%;
       display: inline;
-      position: absolute;
-      z-index: 0;
+      /* position: absolute; */
+      /* z-index: 0; */
     }
     .vimeopush {
       padding-top: none;
@@ -68,8 +68,8 @@ had help from andrew with flex-grow, flex-end */
    .collageMobileDrop {
      width: 100%;
      display: inline;
-     position: absolute;
-     z-index: 0;
+     /* position: absolute;
+     z-index: 0; */
    }
    .vimeopush {
      padding-top: none;
