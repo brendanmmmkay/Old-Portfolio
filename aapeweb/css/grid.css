@@ -34,10 +34,11 @@ had help from andrew with flex-grow, flex-end */
       display: inline;
     }
     .collageMobileDrop {
-      width: 100%;
+      width: 100vw;
       display: inline;
       position: absolute;
       z-index: 0;
+      transform: scale(1.1);
     }
     .vimeopush {
       padding-top: none;
@@ -66,10 +67,11 @@ had help from andrew with flex-grow, flex-end */
      display: inline;
    }
    .collageMobileDrop {
-     width: 100%;
+     width: 100vw;
      display: inline;
      position: absolute;
      z-index: 0;
+     /* transform: scale(1.1); */
    }
    .vimeopush {
      padding-top: none;
@@ -81,8 +83,10 @@ had help from andrew with flex-grow, flex-end */
    display: inline;
    }
    .collageDesktopDrop {
-   width: 100%;
-   display: inline;
+     display: inline;
+     position: absolute;
+     z-index: 0;
+     width: 100%;
    }
    .collageMobile {
      display: none;
@@ -99,15 +103,18 @@ had help from andrew with flex-grow, flex-end */
    display: none;
    }
    .mobile-hide {
-   display: inline;
+   display: none;
    }
    .collageDesktop {
    display: inline;
-   width: 100%;
+   width: 100vw;
    }
    .collageDesktopDrop {
    display: inline;
-   width: 100%;
+   position: absolute;
+   z-index: 0;
+   width: 100vw;
+   transform: scale(1.06);
    }
    .collageMobile {
      display: none;
@@ -196,5 +203,9 @@ had help from andrew with flex-grow, flex-end */
      margin-top: -13rem;
      position: absolute;
      z-index: 1; */
+   }
+   .smol {
+     /* DELETE */
+     width: 40%;
    }
 }

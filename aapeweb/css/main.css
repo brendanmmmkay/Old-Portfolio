@@ -8,7 +8,6 @@
     overflow-x: hidden;
     overflow-y: auto;
   }
-
   .parallax__layer {
     position: absolute;
     top: 0;
@@ -37,9 +36,15 @@
 }
 body {
   color: #000;
-  background-color: #f4f4f4;
+  background-color: #FFFDEF;
   transition: background-color 1s ease;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   @font-face {
   font-family: Circular;
   src: url(../type/circular-black.woff);
@@ -154,18 +159,22 @@ body {
   /* panel styles */
   .panel {
     /* min height incase content is higher than window height */
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: sans-serif;
+    /* height: 10vh; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* font-family: sans-serif; */
     /* outline: 10px solid hotpink; */
     /* turn above on to see the edge of panels */
   }
 
   /* colours */
-  .color-violet {
-    background-color: #7A4EAB;
+  .color-dark {
+    background-color: #0D292B;
+  }
+
+  .color-aape {
+    background-color: #FFFDEF;
   }
 
 /* SVG styling */

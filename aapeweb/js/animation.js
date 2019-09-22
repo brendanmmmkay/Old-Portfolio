@@ -1,6 +1,12 @@
+// document.addEventListener('DOMContentLoaded', () =>{
+//   let waypoint = new Waypoint ({
+//     element: document.querySelector('animationbegin'),
+//     handler:  function() {
+
 const timeline = anime.timeline({
 loop: true,
 autoplay: true,
+// autoplay: true,
 duration: 2000,
 easing: 'easeInOutSine',
 });
@@ -76,3 +82,10 @@ translateX: [93,93],
 .add({
 duration: 2000,
 })
+
+// document.querySelector('.timelineplay').onclick = timeline.play;
+// document.querySelector('.timelinepause').onclick = timeline.pause;
+
+// },
+// })
+// })
