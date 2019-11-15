@@ -92,11 +92,13 @@ had help from andrew with flex-grow, flex-end */
      font-size: 3.7rem;
    }
    .bodyType {
+     max-width: 40rem;
      margin-top: 1rem;
      font-size: 1rem;
      line-height: 1.2rem;
    }
    .smallType {
+     max-width: 40rem;
      font-size: .7rem;
      line-height: .8rem;
    }
