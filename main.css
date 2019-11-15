@@ -59,12 +59,12 @@ a:active, a:hover {
   transform: translate(-30%, -50%); */
 }
 
-.bodyType {
+/* .bodyType {
   max-width: 40rem;
 }
 .smallType {
   max-width: 40rem;
-}
+} */
 
 ::selection {
   color: rgb(239,236,114);
