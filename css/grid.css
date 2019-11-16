@@ -36,6 +36,15 @@ had help from andrew with flex-grow, flex-end */
     h2 {
       font-size: 2.2rem;
     }
+    .bodyType {
+      margin-top: 3rem;
+      font-size: .7rem;
+      line-height: .8rem;
+    }
+    .smallType {
+      font-size: .7rem;
+      line-height: .8rem;
+    }
 }
  @media (min-width: 23.5em) {
    .collageDesktop {
@@ -81,5 +90,16 @@ had help from andrew with flex-grow, flex-end */
    }
    h2 {
      font-size: 3.7rem;
+   }
+   .bodyType {
+     max-width: 40rem;
+     margin-top: 1rem;
+     font-size: 1rem;
+     line-height: 1.2rem;
+   }
+   .smallType {
+     max-width: 40rem;
+     font-size: .7rem;
+     line-height: .8rem;
    }
 }
