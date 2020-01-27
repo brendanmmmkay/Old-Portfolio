@@ -1,11 +1,26 @@
 @font-face {
-font-family: Untitled;
+font-family: UntitledSerifBold;
 src: url(../type/UntitledSerifTest-Bold.woff);
+}
+
+@font-face {
+font-family: UntitledSansBold;
+src: url(../type/UntitledSansTest-Bold.woff);
 }
 
 @font-face {
 font-family: UntitledSans;
 src: url(../type/UntitledSansTest-Regular.woff);
+}
+
+@font-face {
+font-family: UntitledSansLight;
+src: url(../type/UntitledSansTest-Light.woff);
+}
+
+@font-face {
+font-family: Lynstone;
+src: url(../type/LynstoneTrialWeb-Regular.woff);
 }
 
  html {
@@ -24,18 +39,32 @@ src: url(../type/UntitledSansTest-Regular.woff);
      font-style: italic;
 } */
  h2 {
-     font-family: Untitled;
+     font-family: UntitledSerifBold;
      /* font-style: bold; */
      color: white;
      /* max-width: 40rem; */
    }
+   h3 {
+       font-family: Lynstone;
+       /* font-style: bold; */
+       color: white;
+       /* max-width: 40rem; */
+     }
 
 a, p {
-  font-family: UntitledSans;
   color: white;
   /* width: 40em; */
   line-height: 1.6rem;
   /* max-width: 10rem; */
+}
+p {
+font-family: UntitledSansLight;
+margin-top: -1rem;
+}
+
+p2 {
+font-family: UntitledSansBold;
+margin-top: -1rem;
 }
 /* .wtf {
   width: 40em;

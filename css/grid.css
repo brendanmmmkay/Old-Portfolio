@@ -91,6 +91,12 @@ had help from andrew with flex-grow, flex-end */
    h2 {
      font-size: 3.7rem;
    }
+   h3 {
+     font-size: 1.7rem;
+   }
+   h4 {
+     font-size: 1rem;
+   }
    .bodyType {
      max-width: 40rem;
      margin-top: 1rem;
