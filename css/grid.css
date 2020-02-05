@@ -3,109 +3,76 @@ had help from andrew with flex-grow, flex-end */
  * {
      box-sizing: border-box;
 }
- .grid {
-     display: flex;
-     flex-wrap: wrap;
-}
-.mobile-hide {
- display: none;
- }
- .mobile-show {
- display: none;
- }
- .collageDesktop {
-     display: none;
-     position: relative;
- }
- .collageMobile {
-   display: none;
-   position: relative;
- }
 
  @media (min-width: 15em) {
-   .collageDesktop {
-    display: none;
-    }
-    .collageMobile {
-      /* width: 100%; */
-      width: 100vw;
-      display: inline;
-      position: absolute;
-      z-index: 0;
-    }
-    h2 {
-      font-size: 2.2rem;
-    }
-    .bodyType {
-      margin-top: 3rem;
-      font-size: .7rem;
-      line-height: .8rem;
-    }
-    .smallType {
-      font-size: .7rem;
-      line-height: .8rem;
-    }
+
+   .smol {
+     width: 100%;
+   }
+   .grid-col-1of2 {
+     /* display: grid; */
+     align-items: center;
+     justify-content:center;
+     grid-template-columns: 300px;
+     padding: 3px;
+   }
+
+   .grid-col-2of2 {
+     /* display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: end; */
+     align-items: center;
+     justify-content:center;
+     grid-template-columns: 300px;
+     padding: 3px;
+   }
+
 }
  @media (min-width: 23.5em) {
-   .collageDesktop {
-   display: none;
-   }
-   .collageMobile {
-     /* width: 100%; */
-     width: 100vw;
-     display: inline;
-     position: absolute;
-     z-index: 0;
-   }
+
+
 }
  @media (min-width: 45em) {
-   .collageDesktop {
-   /* height: 100%; */
-   width: 100vw;
-   display: inline;
-   position: absolute;
-   z-index: 0;
-   }
-   .collageMobile {
-     display: none;
-   }
+
+
 }
  @media (min-width: 56.25em) {
-   .mobile-show {
-   display: none;
+
+   .grid-text-col {
+     /* display: flex;
+     flex-wrap: wrap; */
+     align-items: center;
+      /* justify-content: end; */
+     /* display: grid; */
+     justify-content:center;
    }
-   .mobile-hide {
-   display: none;
+
+   .grid-col-1of2 {
+     /* display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: end; */
+     display: grid;
+     justify-content:end;
+     grid-template-columns: 450px 450px; /*Make the grid smaller than the container*/
+     grid-gap: 10px;
+     padding: 3px;
    }
-   .collageDesktop {
-   /* display: inline; */
-   width: 100vw;
-   /* height: 100%; */
-   position: absolute;
-   z-index: 0;
-   /* width: 100vw; */
+
+   .grid-col-2of2 {
+     /* display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: end; */
+     display: grid;
+     justify-content:end;
+     grid-template-columns: 450px; /*Make the grid smaller than the container*/
+     grid-gap: 10px;
+     padding: 3px;
    }
-   .collageMobile {
-     display: none;
-   }
-   h2 {
-     font-size: 3.7rem;
-   }
-   h3 {
-     font-size: 1.7rem;
-   }
-   h4 {
-     font-size: 1rem;
-   }
-   .bodyType {
-     max-width: 40rem;
-     margin-top: 1rem;
-     font-size: 1rem;
-     line-height: 1.2rem;
-   }
-   .smallType {
-     max-width: 40rem;
-     font-size: .7rem;
-     line-height: .8rem;
+
+   .smol {
+     width: 100%;
    }
 }

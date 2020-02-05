@@ -26,7 +26,16 @@ src: url(../type/LynstoneTrialWeb-Regular.woff);
  html {
      max-width: 100%;
      overflow-x: hidden;
-     background-color: #133B5F;
+     /* background-color: #0303030; */
+     background-color: #0A0A0A;
+     /* background-color: #133B5F; */
+}
+.StickyText {
+  margin-top: -0.2rem;
+  margin-left: 0.5rem;
+  position: fixed;
+  font-family: Lynstone;
+
 }
  /* p, ul, ol {
      font-size: 0.8rem;
@@ -57,15 +66,7 @@ a, p {
   line-height: 1.6rem;
   /* max-width: 10rem; */
 }
-p {
-font-family: UntitledSansLight;
-margin-top: -1rem;
-}
 
-p2 {
-font-family: UntitledSansBold;
-margin-top: -1rem;
-}
 /* .wtf {
   width: 40em;
   line-height: 1.6rem;
@@ -86,6 +87,9 @@ a:active, a:hover {
   /* left: 30%;
   top: 50%;
   transform: translate(-30%, -50%); */
+}
+.imgpush {
+  margin-top: 0.5rem;
 }
 
 /* .bodyType {
