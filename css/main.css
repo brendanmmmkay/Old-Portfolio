@@ -23,6 +23,11 @@ font-family: Lynstone;
 src: url(../type/LynstoneTrialWeb-Regular.woff);
 }
 
+@font-face {
+font-family: LynstoneBook;
+src: url(../type/Lynstone/LynstoneTrialWeb-Book.woff);
+}
+
  html {
      max-width: 100%;
      overflow-x: hidden;
@@ -37,6 +42,19 @@ src: url(../type/LynstoneTrialWeb-Regular.woff);
   font-family: Lynstone;
 
 }
+.subText {
+  /* margin-top: 5rem; */
+  margin-left: 0.5rem;
+  font-family: LynstoneBook;
+  max-width: 16rem;
+}
+.linkText {
+  /* margin-top: 5rem; */
+  margin-left: 0.5rem;
+  font-family: UntitledSansLight;
+  max-width: 16rem;
+}
+
  /* p, ul, ol {
      font-size: 0.8rem;
      line-height: 2.5em;
@@ -89,7 +107,7 @@ a:active, a:hover {
   transform: translate(-30%, -50%); */
 }
 .imgpush {
-  margin-top: 0.5rem;
+  padding-top: 45rem;
 }
 
 /* .bodyType {

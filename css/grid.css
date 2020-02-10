@@ -14,7 +14,7 @@ had help from andrew with flex-grow, flex-end */
      align-items: center;
      justify-content:center;
      grid-template-columns: 300px;
-     padding: 3px;
+     /* padding: 3px; */
    }
 
    .grid-col-2of2 {
@@ -25,7 +25,21 @@ had help from andrew with flex-grow, flex-end */
      align-items: center;
      justify-content:center;
      grid-template-columns: 300px;
-     padding: 3px;
+     /* padding: 3px; */
+   }
+   h2 {
+     font-size: 2.2rem;
+   }
+
+   .subTextPos{
+     position: inline;
+   }
+   .subText {
+     font-size: 0.9rem;
+     max-width: 16rem;
+   }
+   .linkText {
+     font-size: 1rem;
    }
 
 }
@@ -57,7 +71,7 @@ had help from andrew with flex-grow, flex-end */
      justify-content:end;
      grid-template-columns: 450px 450px; /*Make the grid smaller than the container*/
      grid-gap: 10px;
-     padding: 3px;
+     /* padding: 3px; */
    }
 
    .grid-col-2of2 {
@@ -69,10 +83,23 @@ had help from andrew with flex-grow, flex-end */
      justify-content:end;
      grid-template-columns: 450px; /*Make the grid smaller than the container*/
      grid-gap: 10px;
-     padding: 3px;
+     /* padding: 3px; */
+   }
+   h2 {
+     font-size: 3.7rem;
    }
 
    .smol {
      width: 100%;
+   }
+   .subTextPos{
+     position: absolute;
+   }
+   .subText {
+     font-size: 0.9rem;
+     max-width: 16rem;
+   }
+   .linkText {
+     font-size: 0.7rem;
    }
 }
