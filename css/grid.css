@@ -98,6 +98,7 @@ had help from andrew with flex-grow, flex-end */
    .subText {
      font-size: 0.9rem;
      max-width: 16rem;
+     margin-top: 0;
    }
    .linkText {
      font-size: 0.7rem;
