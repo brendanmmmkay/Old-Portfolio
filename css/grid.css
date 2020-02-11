@@ -4,7 +4,98 @@ had help from andrew with flex-grow, flex-end */
      box-sizing: border-box;
 }
 
- @media (min-width: 15em) {
+@media (min-width: 320px) {
+
+  .smol {
+    width: 100%;
+  }
+  .grid-col-1of2 {
+    /* display: grid; */
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: 300px;
+    /* padding: 3px; */
+  }
+
+  .grid-col-2of2 {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end; */
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: 300px;
+    /* padding: 3px; */
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+    color: white;
+    letter-spacing: -1px;
+  }
+
+  .subTextPos{
+    position: inline;
+  }
+  .subText {
+    font-size: 0.9rem;
+    max-width: 16rem;
+  }
+  .linkText {
+    font-size: 1rem;
+  }
+  .imgpush {
+    padding-top: 32rem;
+  }
+
+@media (min-width: 375px) {
+
+  .smol {
+    width: 100%;
+  }
+  .grid-col-1of2 {
+    /* display: grid; */
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: 300px;
+    /* padding: 3px; */
+  }
+
+  .grid-col-2of2 {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end; */
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: 300px;
+    /* padding: 3px; */
+  }
+  h2 {
+    font-size: 2.3rem;
+    line-height: 2.4rem;
+    color: white;
+    letter-spacing: -1px;
+    max-width: 18.5rem;
+  }
+
+  .subTextPos{
+    position: inline;
+  }
+  .subText {
+    font-size: 0.9rem;
+    max-width: 16rem;
+  }
+  .linkText {
+    font-size: 1rem;
+  }
+  .imgpush {
+    padding-top: 47rem;
+  }
+
+}
+
+ @media (min-width: 414px) {
 
    .smol {
      width: 100%;
@@ -28,7 +119,11 @@ had help from andrew with flex-grow, flex-end */
      /* padding: 3px; */
    }
    h2 {
-     font-size: 2.2rem;
+     font-size: 2.5rem;
+     line-height: 2.6rem;
+     color: white;
+     letter-spacing: -1px;
+     max-width: 20rem;
    }
 
    .subTextPos{
@@ -41,6 +136,9 @@ had help from andrew with flex-grow, flex-end */
    .linkText {
      font-size: 1rem;
    }
+   .imgpush {
+     padding-top: 42rem;
+   }
 
 }
  @media (min-width: 23.5em) {
@@ -51,7 +149,7 @@ had help from andrew with flex-grow, flex-end */
 
 
 }
- @media (min-width: 56.25em) {
+ @media (min-width: 768px) {
 
    .grid-text-col {
      /* display: flex;
@@ -87,6 +185,10 @@ had help from andrew with flex-grow, flex-end */
    }
    h2 {
      font-size: 3.7rem;
+     max-width: 80rem;
+     line-height: 3.8rem;
+     color: white;
+     letter-spacing: normal;
    }
 
    .smol {
