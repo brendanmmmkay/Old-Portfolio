@@ -45,7 +45,7 @@ had help from andrew with flex-grow, flex-end */
     font-size: 1rem;
   }
   .imgpush {
-    padding-top: 32rem;
+    /* padding-top: 32rem; */
   }
 
 @media (min-width: 375px) {
@@ -90,7 +90,7 @@ had help from andrew with flex-grow, flex-end */
     font-size: 1rem;
   }
   .imgpush {
-    padding-top: 47rem;
+    /* padding-top: 47rem; */
   }
 
 }
@@ -137,7 +137,7 @@ had help from andrew with flex-grow, flex-end */
      font-size: 1rem;
    }
    .imgpush {
-     padding-top: 42rem;
+     /* padding-top: 42rem; */
    }
 
 }

@@ -98,7 +98,8 @@ a:active, a:hover {
     /* text-decoration: none; */
 }
 .textalign {
-  position: absolute;
+  /* position: absolute; */
+  min-height: 90vh;
   z-index: 1;
   /* max-width: 83rem; */
   padding: 10%;
@@ -107,7 +108,7 @@ a:active, a:hover {
   transform: translate(-30%, -50%); */
 }
 .imgpush {
-  padding-top: 45rem;
+  /* padding-top: 45rem; */
 }
 
 /* .bodyType {
