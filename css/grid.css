@@ -29,7 +29,7 @@ had help from andrew with flex-grow, flex-end */
   }
   h2 {
     font-size: 2rem;
-    line-height: 2.1rem;
+    line-height: 0rem;
     color: white;
     letter-spacing: -1px;
   }
@@ -72,7 +72,7 @@ had help from andrew with flex-grow, flex-end */
     /* padding: 3px; */
   }
   h2 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     line-height: 2.4rem;
     color: white;
     letter-spacing: -1px;
@@ -119,8 +119,8 @@ had help from andrew with flex-grow, flex-end */
      /* padding: 3px; */
    }
    h2 {
-     font-size: 2.5rem;
-     line-height: 2.6rem;
+     font-size: 2.2rem;
+     line-height: 2.3rem;
      color: white;
      letter-spacing: -1px;
      max-width: 20rem;

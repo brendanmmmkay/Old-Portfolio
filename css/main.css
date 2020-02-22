@@ -99,7 +99,7 @@ a:active, a:hover {
 }
 .textalign {
   /* position: absolute; */
-  min-height: 90vh;
+  min-height: 75vh;
   z-index: 1;
   /* max-width: 83rem; */
   padding: 10%;
