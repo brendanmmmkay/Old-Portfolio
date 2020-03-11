@@ -29,7 +29,7 @@ had help from andrew with flex-grow, flex-end */
   }
   h2 {
     font-size: 2rem;
-    line-height: 0rem;
+    line-height: 2.3rem;
     color: white;
     letter-spacing: -1px;
   }
