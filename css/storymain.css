@@ -1,0 +1,42 @@
+body {
+  background-color: #121113;
+}
+
+#character {
+  position: absolute;
+  margin-top: 25rem;
+}
+
+#hat {
+  position: absolute;
+  margin-top: 25rem;
+}
+
+.anim, .anim svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.anim path {
+  stroke-width: 2;
+}
+
+.hero-image {
+  background-image: url("https://yukkuri.xyz/f/HP45DAAA.png");
+  background-color: #121113;
+  height: 700px;
+  /* size: 200%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  /* position: relative; */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
