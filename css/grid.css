@@ -30,8 +30,17 @@ had help from andrew with flex-grow, flex-end */
   h2 {
     font-size: 2rem;
     line-height: 2.3rem;
-    color: white;
+    color: black;
     letter-spacing: -1px;
+  }
+
+  .desktopVideo {
+    display: none;
+  }
+
+  .mobileVideo {
+    display: block;
+    width: 100%;
   }
 
   .subTextPos{
@@ -44,9 +53,28 @@ had help from andrew with flex-grow, flex-end */
   .linkText {
     font-size: 1rem;
   }
-  .imgpush {
-    /* padding-top: 32rem; */
+  h6 {
+    font-size: 1.7em;
+    max-width: 8em;
   }
+  h4 {
+    padding-left: 0rem;
+    margin-top: 1rem;
+    font-size: 1.2em;
+   }
+  .textAlignBottom {
+    padding-top: 50%;
+    padding-left: 10%;
+  }
+  .subtitlePush {
+    margin-left: none;
+    margin-top: 10rem;
+    font-size: 0.8em;
+    padding-bottom: 0rem;
+  }
+  /* .imgpush {
+    padding-top: 32rem;
+  } */
 
 @media (min-width: 375px) {
 
@@ -74,7 +102,7 @@ had help from andrew with flex-grow, flex-end */
   h2 {
     font-size: 2.2rem;
     line-height: 2.4rem;
-    color: white;
+    color: black;
     letter-spacing: -1px;
     max-width: 18.5rem;
   }
@@ -89,9 +117,9 @@ had help from andrew with flex-grow, flex-end */
   .linkText {
     font-size: 1rem;
   }
-  .imgpush {
-    /* padding-top: 47rem; */
-  }
+  /* .imgpush {
+    padding-top: 47rem;
+  } */
 
 }
 
@@ -104,7 +132,7 @@ had help from andrew with flex-grow, flex-end */
      /* display: grid; */
      align-items: center;
      justify-content:center;
-     grid-template-columns: 300px;
+     grid-template-columns: 900px;
      /* padding: 3px; */
    }
 
@@ -115,13 +143,13 @@ had help from andrew with flex-grow, flex-end */
      justify-content: end; */
      align-items: center;
      justify-content:center;
-     grid-template-columns: 300px;
+     grid-template-columns: 900px;
      /* padding: 3px; */
    }
    h2 {
      font-size: 2.2rem;
      line-height: 2.3rem;
-     color: white;
+     color: black;
      letter-spacing: -1px;
      max-width: 20rem;
    }
@@ -136,9 +164,9 @@ had help from andrew with flex-grow, flex-end */
    .linkText {
      font-size: 1rem;
    }
-   .imgpush {
-     /* padding-top: 42rem; */
-   }
+   /* .imgpush {
+     padding-top: 42rem;
+   } */
 
 }
  @media (min-width: 23.5em) {
@@ -166,8 +194,8 @@ had help from andrew with flex-grow, flex-end */
      align-items: center;
      justify-content: end; */
      display: grid;
-     justify-content:end;
-     grid-template-columns: 450px 450px; /*Make the grid smaller than the container*/
+     justify-content:left;
+     grid-template-columns: 40% 60%; /*Make the grid smaller than the container*/
      grid-gap: 10px;
      /* padding: 3px; */
    }
@@ -178,18 +206,33 @@ had help from andrew with flex-grow, flex-end */
      align-items: center;
      justify-content: end; */
      display: grid;
-     justify-content:end;
-     grid-template-columns: 450px; /*Make the grid smaller than the container*/
-     grid-gap: 10px;
+     justify-content:start;
+     grid-template-columns: 600px; /*Make the grid smaller than the container*/
+     grid-gap: 10em;
      /* padding: 3px; */
    }
+
    h2 {
      font-size: 3.7rem;
      max-width: 80rem;
      line-height: 3.8rem;
-     color: white;
+     color: black;
      letter-spacing: normal;
    }
+
+   h4 {
+    padding-left: 5rem;
+    margin-top: -11rem;
+    font-size: 1.5em;
+   }
+
+   .desktopVideo {
+    display: block;
+  }
+
+  .mobileVideo {
+    display: none;
+  }
 
    .smol {
      width: 100%;
@@ -199,10 +242,27 @@ had help from andrew with flex-grow, flex-end */
    }
    .subText {
      font-size: 0.9rem;
-     max-width: 16rem;
+     max-width: 20rem;
      margin-top: 0;
    }
    .linkText {
      font-size: 0.7rem;
    }
+   .subheaderPush {
+    margin-left: 30%;
+   }
+   .subtitlePush {
+    margin-left: 30%;
+    font-size: 0.8em;
+    padding-bottom: 5rem;
+  }
+  h6 {
+    font-size: 2em;
+    max-width: 30em;
+  }
+  .textAlignBottom {
+    padding-top: 12%;
+    padding-left: 10%;
+  }
+}
 }

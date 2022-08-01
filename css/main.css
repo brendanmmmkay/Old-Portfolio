@@ -4,6 +4,11 @@ src: url(../type/UntitledSerifTest-Bold.woff);
 }
 
 @font-face {
+  font-family: UntitledSerifRegular;
+  src: url(../type/UntitledSerifTest-Regular.woff);
+  }
+
+@font-face {
 font-family: UntitledSansBold;
 src: url(../type/UntitledSansTest-Bold.woff);
 }
@@ -32,9 +37,21 @@ src: url(../type/Lynstone/LynstoneTrialWeb-Book.woff);
      max-width: 100%;
      overflow-x: hidden;
      /* background-color: #030303; */
-     background-color: #0a0a0a;
+     background-color: #f0f0f0;
      /* background-color: #133B5F; */
 }
+
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+  
+}
+
+p {
+  max-width: 10rem;
+}
+
 .StickyText {
   margin-top: -0.2rem;
   margin-left: 0.5rem;
@@ -48,6 +65,24 @@ src: url(../type/Lynstone/LynstoneTrialWeb-Book.woff);
   font-family: LynstoneBook;
   max-width: 16rem;
 }
+
+.subheaderPush {
+  /* margin-top: 5rem; */
+  margin-left: 0.5rem;
+  font-family: UntitledSerifRegular;
+  max-width: 30rem;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+}
+
+.subtitlePush {
+  margin-left: 0.5rem;
+  font-family: LynstoneBook;
+  max-width: 16rem;
+  font-size: 1rem;
+}
+
 .linkText {
   /* margin-top: 5rem; */
   margin-left: 0.5rem;
@@ -68,18 +103,39 @@ src: url(../type/Lynstone/LynstoneTrialWeb-Book.woff);
  h2 {
      font-family: UntitledSerifBold;
      /* font-style: bold; */
-     color: white;
+     color: black;
      /* max-width: 40rem; */
    }
    h3 {
        font-family: Lynstone;
        /* font-style: bold; */
-       color: white;
+       color: black;
        /* max-width: 40rem; */
+      font-size: 1em;
+     }
+
+     h4 {
+      font-family: UntitledSansLight;
+      color: black;
+      letter-spacing: -0.5px;
+      vertical-align: text-top;
+     }
+
+     h5 {
+      font-family: UntitledSerifRegular;
+      color: #020202;
+      /* max-width: 900rem; */
+     }
+
+     h6 {
+      font-family: UntitledSansLight;
+      color: black;
+      letter-spacing: -0.5px;
+      padding-left: 0rem;
      }
 
 a, p {
-  color: white;
+  color: black;
   /* width: 40em; */
   line-height: 1.6rem;
   /* max-width: 10rem; */
@@ -89,27 +145,33 @@ a, p {
   width: 40em;
   line-height: 1.6rem;
 } */
+
 a:visited {
     /* text-decoration: none; */
-    color: white;
+    color: black;
 }
-a:active, a:hover {
-    /* color: #55107E; */
-    /* text-decoration: none; */
-}
-.textalign {
+
+/* a:active, a:hover {
+    color: #55107E;
+    text-decoration: none;
+} */
+.textAlignTop {
   /* position: absolute; */
-  min-height: 75vh;
+  /* min-height: 15vh; */
   z-index: 1;
   /* max-width: 83rem; */
-  padding: 10%;
+  padding-left: 10%;
+  padding-top: 20%;
+  padding-bottom: 1%;
+  
   /* left: 30%;
   top: 50%;
   transform: translate(-30%, -50%); */
 }
-.imgpush {
-  /* padding-top: 45rem; */
-}
+
+/* .imgpush {
+  padding-top: 45rem;
+} */
 
 /* .bodyType {
   max-width: 40rem;
@@ -118,11 +180,11 @@ a:active, a:hover {
   max-width: 40rem;
 } */
 .lemonade {
-  color: rgb(239,236,114);
+  color: #FE5336;
   background: none;
 }
 ::selection {
-  color: rgb(239,236,114);
+  color: #FE5336;
 }
 /* .priotity {
   position: absolute;
