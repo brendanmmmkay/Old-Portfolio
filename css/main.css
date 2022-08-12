@@ -48,24 +48,42 @@ video {
   
 }
 
+* {border: 0 !important; }
+
 p {
   max-width: 10rem;
 }
 
-a {
-  /* no underline */
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 .drkMode {
-  background-color: #030303;
+  background-color: #101011;
   /* background: #030303; */
   padding: 0;
   margin: 0;
+
 }
 
 .lghtMode {
   color: #fefefe;
+}
+
+.drkText {
+  color: black;
 }
 
 .StickyText {
@@ -124,7 +142,7 @@ a {
    h3 {
        font-family: Lynstone;
        /* font-style: bold; */
-       color: black;
+       color: white;
        /* max-width: 40rem; */
       font-size: 1em;
      }
@@ -150,10 +168,14 @@ a {
      }
 
 a, p {
-  color: black;
+  /* color: black; */
   /* width: 40em; */
   line-height: 1.6rem;
   /* max-width: 10rem; */
+}
+
+h3:visited {
+  color: white;
 }
 
 /* .wtf {
@@ -163,26 +185,13 @@ a, p {
 
 a:visited {
     /* text-decoration: none; */
-    color: black;
+    /* color: black; */
 }
 
 /* a:active, a:hover {
     color: #55107E;
     text-decoration: none;
 } */
-.textAlignTop {
-  /* position: absolute; */
-  /* min-height: 15vh; */
-  z-index: 1;
-  /* max-width: 83rem; */
-  padding-left: 10%;
-  padding-top: 20%;
-  padding-bottom: 1%;
-  
-  /* left: 30%;
-  top: 50%;
-  transform: translate(-30%, -50%); */
-}
 
 /* .imgpush {
   padding-top: 45rem;
@@ -205,3 +214,48 @@ a:visited {
   position: absolute;
   z-index: 1;
 } */
+
+.marquee-outer {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  color:#FE5336;
+}
+
+.marquee-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* starting position */
+  -moz-transform:translateX(10%);
+  -webkit-transform:translateX(10%);	
+  transform:translateX(10%);
+  /* Apply animation to this element */	
+  -moz-animation: scroll-left 40s linear infinite;
+  -webkit-animation: scroll-left 40s linear infinite;
+  animation: scroll-left 40s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes scroll-left {
+  50%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(100%); }
+ }
+ @-webkit-keyframes scroll-left {
+  50%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+ @keyframes scroll-left {
+  100%   { 
+  -moz-transform: translateX(100%); /* Browser bug fix */
+  -webkit-transform: translateX(100%); /* Browser bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Browser bug fix */
+  -webkit-transform: translateX(-100%); /* Browser bug fix */
+  transform: translateX(-100%); 
+  }
+ }
