@@ -58,6 +58,7 @@ had help from andrew with flex-grow, flex-end */
     max-width: 25rem;
     font-size: 1.7rem;
     padding-left: 1rem;
+    letter-spacing: -2px;
   }
   .hangerClass {
     padding-top: 5rem;
@@ -79,7 +80,7 @@ had help from andrew with flex-grow, flex-end */
     letter-spacing: -1px;
   }
   h4 {
-    padding-left: 0rem;
+    padding-left: 0.5rem;
     margin-top: 1rem;
     font-size: 1em;
     letter-spacing: -0.5px;
@@ -112,6 +113,8 @@ had help from andrew with flex-grow, flex-end */
   }
   .subheaderPush {
     font-size: 1.5rem;
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
   }
   /* .lghtMode {
     max-width: 17rem;
@@ -296,6 +299,7 @@ had help from andrew with flex-grow, flex-end */
     max-width: 80rem;
     font-size: 2.3rem;
     padding-left: 0rem;
+    letter-spacing: -1px;
   }
   .hangerClass {
     padding-top: 0rem;
@@ -322,6 +326,8 @@ had help from andrew with flex-grow, flex-end */
    }
    .subheaderPush {
     margin-left: 30%;
+    margin-top: 3rem;
+    padding-bottom: 0rem;
    }
    .subtitlePush {
     margin-left: 30%;
