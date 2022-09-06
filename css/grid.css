@@ -40,7 +40,7 @@ had help from andrew with flex-grow, flex-end */
 
   .mobileVideo {
     display: block;
-    /* width: 100%; */
+    width: 100%;
   }
 
   .subTextPos{
