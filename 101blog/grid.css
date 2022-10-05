@@ -359,6 +359,7 @@ had help from andrew with flex-grow, flex-end */
     }
      h2.bushead, p.bushead, h3.bushead, h5.bushead, h6.bushead {
          margin-left: 30%;
+         margin-top: 10%;
     }
      .bikes {
          width: 50%;
