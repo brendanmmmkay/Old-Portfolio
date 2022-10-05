@@ -8,8 +8,8 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      display: inline-block;
     /* background-color: rgba(255, 255, 255, 0.5);
      */
-     border-left: 3px solid #ff5e57;
-     color: black;
+     border-left: 3px solid #292A2D;
+     color: white;
      padding: 0.75em 2em;
      text-decoration: none;
      font-family: 'Roboto', sans-serif;
@@ -28,7 +28,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
 }
  */
  nav a:hover, nav a:active, nav a:focus {
-     background-color: #ff5e57;
+     background-color: #292A2D;
      width: 25%;
      color: white;
      font-family: 'Roboto', sans-serif;
@@ -65,7 +65,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
  html {
      max-width: 100%;
      overflow-x: hidden;
-     background-color: black;
+     background-color: #292A2D;
 }
 /* html, body {
      max-width: 100%;
@@ -90,17 +90,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
   background-color: black;
 } */
 
-}
- body {
 
-    /* font-size: 1em;
-     */
-    /* color: black;
-     */
-    /* padding: 1em;
-     */
-
-}
  section {
      padding: 1em;
 
@@ -114,7 +104,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      margin-left: 8rem;
      font-size: 16rem;
      line-height: 1.4em;
-     color: #FFDA4F;
+     color: white;
      font-family: 'Source Sans Pro', sans-serif;
      max-width: 10rem;
 }
