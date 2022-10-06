@@ -150,7 +150,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      font-size: 1rem;
      line-height: 2.5em;
      text-align: left;
-     max-width: 20rem;
+     max-width: 40rem;
      font-family: 'Source Sans Pro', sans-serif;
      color: white;
 }
@@ -174,3 +174,17 @@ used w3schools to help with css animation, had andrew's help for box shadows */
 .pusher {
      margin-left: 25%;
 }
+.white {
+     background-color:  white;
+}
+.black {
+     color: #535151;
+     
+}
+.whiteType {
+     color: white;
+}
+.imageScale {
+     width: 40%;
+}
+
