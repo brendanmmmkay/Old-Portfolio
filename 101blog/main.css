@@ -4,30 +4,45 @@ used w3schools to help with css animation, had andrew's help for box shadows */
     height:1000px;
 }
 
+body {
+     margin: 0;
+}
+
 
 .topnav {
      overflow: hidden;
-     background-color: #333;
+     background-color: #2C2B2B;
+     position:fixed;
+     width: 100%;
+     border-bottom: 1px solid #464646;
+     z-index: 3;
    }
    
    .topnav a {
      float: right;
      color: #f2f2f2;
      text-align: center;
+     /* padding: 14px 16px; */
      padding: 14px 16px;
      text-decoration: none;
-     font-size: 17px;
+     font-size: 15px;
+   
    }
    
    .topnav a:hover {
-     background-color: #ddd;
+     background-color: #FE5336;
      color: black;
+   
    }
    
    .topnav a.active {
-     background-color: #670bf5;
+     background-color: #A4A09E;
      color: white;
    }
+/* 
+   hr.new1 {
+     border-top: 1px solid #424245;
+   } */
 
  nav a, nav a:visited {
      display: inline-block;
@@ -148,7 +163,7 @@ used w3schools to help with css animation, had andrew's help for box shadows */
    font-family: 'Source Sans Pro', sans-serif;
 }
  h4 {
-     line-height: 2em;
+     line-height: 0.5em;
      letter-spacing: 0.1em;
      font-family: 'Source Sans Pro', sans-serif;
 }
@@ -184,9 +199,9 @@ used w3schools to help with css animation, had andrew's help for box shadows */
      font-style: italic;
 }
  a {
-     color: #8968CD;
+     /* color: #8968CD; */
      font-size: 0.75rem;
-     font-family: 'Source Sans Pro', sans-serif;
+     /* font-family: 'Source Sans Pro', sans-serif; */
 }
  a:visited {
      text-decoration: none;
@@ -212,4 +227,9 @@ used w3schools to help with css animation, had andrew's help for box shadows */
 .imageScale {
      width: 40%;
 }
+
+.smallCaps {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-variant: small-caps;
+   }
 
