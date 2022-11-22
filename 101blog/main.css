@@ -28,6 +28,10 @@ body {
      font-size: 15px;
    
    }
+
+   .smallImage {
+     width: 70%;
+   }
    
    .topnav a:hover {
      background-color: #FE5336;
