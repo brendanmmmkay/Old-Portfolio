@@ -27,6 +27,27 @@ had help from andrew with flex-grow, flex-end */
     grid-template-columns: 300px;
     /* padding: 3px; */
   }
+
+  .grid-col-nav {
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: 30px;
+  }
+
+  .textAlignTop {
+    /* position: absolute; */
+    /* min-height: 15vh; */
+    z-index: 1;
+    /* max-width: 83rem; */
+    padding-left: 0%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    
+    /* left: 30%;
+    top: 50%;
+    transform: translate(-30%, -50%); */
+  }
+
   h2 {
     font-size: 2rem;
     line-height: 2.3rem;
@@ -260,6 +281,12 @@ had help from andrew with flex-grow, flex-end */
      /* padding: 3px; */
    }
 
+   .grid-col-nav {
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8% 8%;
+    justify-content: start;
+  }
+
    h2 {
      font-size: 3.7rem;
      max-width: 80rem;
@@ -297,9 +324,10 @@ had help from andrew with flex-grow, flex-end */
   }
   .schmediumType {
     max-width: 80rem;
-    font-size: 2.3rem;
+    font-size: 3rem;
     padding-left: 0rem;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
+    padding-top: 5rem;
   }
   .hangerClass {
     padding-top: 0rem;
