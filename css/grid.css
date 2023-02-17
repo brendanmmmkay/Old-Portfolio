@@ -99,7 +99,7 @@ h6 {
  max-width: 8em;
  letter-spacing: -1px;
 }
-h4 {
+.indexH4 {
  padding-left: 0.5rem;
  margin-top: 1rem;
  font-size: 1em;
@@ -297,7 +297,7 @@ h2 {
   letter-spacing: normal;
 }
 
-h4 {
+.indexH4 {
  padding-left: 5rem;
  margin-top: -7rem;
  letter-spacing: 0.1px;
@@ -368,7 +368,7 @@ padding-left: 0rem;
  margin-left: 30%;
  font-size: 0.8em;
  padding-bottom: 5rem;
- max-width: 16rem;
+ max-width: 20rem;
  padding-top: -5rem;
 }
 h6 {
