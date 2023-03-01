@@ -97,7 +97,7 @@
 
   .schmediumType {
     max-width: 22rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-left: 1rem;
     letter-spacing: -2px;
   }
@@ -201,6 +201,14 @@
   .textAlignTest2 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .newLinkText {
+    /* margin-top: 5rem; */
+    margin-left: 0.5rem;
+    /* font-family: UntitledSansLight;
+    max-width: 16rem; */
+    font-family: UntitledSansLight;
   }
 
 }
@@ -565,6 +573,14 @@
   font-family: NeueHaasMedium;
   letter-spacing: -0.05px;
   line-height:normal;
+}
+
+.newLinkText {
+  /* margin-top: 5rem; */
+  margin-left: 0.5rem;
+  /* font-family: UntitledSansLight;
+  max-width: 16rem; */
+  font-family: Lynstone;
 }
 
 }
