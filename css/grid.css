@@ -109,7 +109,7 @@
   .schmediumType {
     max-width: 22rem;
     font-size: 1.5rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     letter-spacing: -2px;
   }
 
@@ -125,9 +125,9 @@
   }
 
   .outroAlign {
-    margin-left: 0%;
+    margin-left: 5%;
     padding-top: 10%;
-    padding-bottom: 10%;
+    /* padding-bottom: 10%; */
   }
 
   h6 {
@@ -183,6 +183,7 @@
     margin-left: 2rem;
     margin-right: 1.5rem;
     padding-bottom: 2rem;
+    margin-top: 15rem;
   }
 
   .cardGrid {
@@ -221,6 +222,54 @@
     max-width: 16rem; */
     font-family: UntitledSansLight;
   }
+
+  .xtraHaastyAffair {
+    /* padding-top: 5%; */
+    padding-bottom: 3%;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: auto;
+    color: white;
+    font-family: 'NeueHaasXThin';
+    max-width: 25rem;
+  }
+
+  .hastyErrantAffair {
+    padding-left: 2rem;
+    margin-bottom: 5rem;
+    }
+
+    .headerMargin {
+      margin-left: 2rem;
+    }
+
+    .haasAffair {
+      padding-top: 5%;
+      /* padding-bottom: 3%; */
+      font-size: 2rem;
+      letter-spacing: 1px;
+      line-height: auto;
+      color: white;
+      font-family: 'NeueHaasLight';
+      margin-bottom: -50px;
+      padding-bottom: 20px;
+    }
+
+    .xtraHaastyAffair {
+      /* padding-top: 5%; */
+      padding-bottom: 2%;
+      font-size: 1.2rem;
+      letter-spacing: 0.5px;
+      line-height: auto;
+      color: white;
+      font-family: 'NeueHaasXThin';
+      max-width: 22rem;
+      padding-left: 5%;
+    }
+
+    .amyfinck {
+      padding-top: 5%;
+    }
 
 }
 
@@ -394,7 +443,7 @@
     }
 
     .cardGin {
-      /* padding-top: 20rem; */
+      padding-top: 5rem;
       margin-left: 20rem;
       margin-right: 5rem;
       /* padding-bottom: 50rem; */
@@ -495,7 +544,14 @@
       font-size: 3rem;
       padding-left: 0rem;
       letter-spacing: -2px;
-      padding-top: 5rem;
+      /* margin-top: 0px; */
+      /* margin-bottom: 50px; */
+      /* padding-top: 5rem; */
+    }
+
+    .amyMode {
+      margin-top: 0px;
+      margin-bottom: 50px;
     }
 
     .hangerClass {
@@ -560,9 +616,9 @@
 
 
   .outroAlign {
-    margin-left: 10%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-left: 5%;
+    padding-top: 70px;
+    /* padding-bottom: 10%; */
   }
 
 
@@ -619,5 +675,42 @@
 .mobilePadBottom {
   margin-bottom: 0rem;
 }
+
+.xtraHaastyAffair {
+  /* padding-top: 5%; */
+  padding-bottom: 2%;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: auto;
+  color: white;
+  font-family: 'NeueHaasXThin';
+  max-width: 60rem;
+  padding-left: 5%;
+}
+
+.hastyErrantAffair {
+  padding-left: 5rem;
+  padding-bottom: 10rem;
+  }
+
+  .headerMargin {
+    margin-left: 0rem;
+  }
+
+  .amyfinck {
+    padding-top: 2%;
+  }
+
+  .haasAffair {
+    padding-top: 5%;
+    /* padding-bottom: 3%; */
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: auto;
+    color: white;
+    font-family: 'NeueHaasLight';
+    margin-bottom: -50px;
+    padding-bottom: 0px;
+  }
 
 }
