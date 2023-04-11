@@ -6,11 +6,33 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="css/cards.css"> -->
   <!-- <link rel="stylesheet" href="css/project.css"> -->
 </head>
 
 <body style="margin: 0;">
+
+  <div class="topnav" id="myTopnav">
+    <a class="invi cherry" href="https://brendanmckay.com/" class="active">Brendan</a>
+    <a class="invi2 cherry" href="https://read.cv/bedthyme">Read.cv</a>
+    <a class="invi2 cherry" href="https://www.linkedin.com/in/brendan-mckay/">Linkedin</a>
+    <a class="invi2 cherry" href="https://medium.com/@brendanmckaydesign">Medium</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
 <section class="drkMode">
 <div class="textAlignTop">
