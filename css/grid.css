@@ -107,10 +107,10 @@
   }
 
   .schmediumType {
-    max-width: 22rem;
-    font-size: 1.8rem;
+    max-width: 20rem;
+    font-size: 1.5rem;
     /* padding-left: 1rem; */
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     line-height: 40px;
 
   }
