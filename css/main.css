@@ -117,7 +117,7 @@
   }
   
   .topnav a {
-    float: right;
+    /* float: right; */
     color: #f2f2f2;
     text-align: center;
     /* padding: 14px 16px; */
@@ -345,3 +345,17 @@
   color: white;
   font-family: 'NeueHaasXThin';
 } */
+
+.invincible {
+  /* padding-left: 10rem; */
+  float: right;
+  /* margin-left: 80%; */
+}
+
+.invi {
+  float: left;
+  }
+  
+.invi2 {
+  float: right
+  }
