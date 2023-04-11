@@ -67,7 +67,7 @@
     /* min-height: 15vh; */
     z-index: 1;
     /* max-width: 83rem; */
-    padding-left: 0%;
+    padding-left: 5%;
     padding-top: 20%;
     padding-bottom: 10%;
 
@@ -108,9 +108,11 @@
 
   .schmediumType {
     max-width: 22rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     /* padding-left: 1rem; */
     letter-spacing: -2px;
+    line-height: 40px;
+
   }
 
   .hangerClass {
@@ -544,6 +546,7 @@
       font-size: 3rem;
       padding-left: 0rem;
       letter-spacing: -2px;
+       line-height: 58px;
       /* margin-top: 0px; */
       /* margin-bottom: 50px; */
       /* padding-top: 5rem; */
