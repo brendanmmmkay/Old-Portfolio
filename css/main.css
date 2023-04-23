@@ -368,7 +368,7 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  /* background-color: #ddd; */
   color: black;
 }
 
@@ -431,4 +431,8 @@
 
   .testy {
     width: 100%;
+  }
+
+  .skittle {
+    color:#E5FF43;
   }
