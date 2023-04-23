@@ -282,7 +282,8 @@
   } */
 
   .orange {
-    background-color: #ed6b47;
+    /* background-color: #ed6b47; */
+     background-color: #CDCDCD;
   }
   
 
@@ -421,4 +422,13 @@
     letter-spacing: 1px;
     color: #888888;
     font-family: 'NeueHaasLight';
+  }
+
+  .logo {
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+  }
+
+  .testy {
+    width: 100%;
   }
