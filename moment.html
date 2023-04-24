@@ -14,6 +14,28 @@
 
 <body style="margin: 0;">
 
+    <div class="topnav" id="myTopnav">
+        <a class="invi cherry logo" href="https://brendanmckay.com/"><img src="img/b.svg" alt="Brendan" style="width:20px;height:20px;"></a>
+        <a class="invi2 cherry smallCaps skittle" href="https://brendanmckay.com/about.html">about</a>
+        <a class="invi2 cherry smallCaps" href="https://read.cv/bedthyme">read.cv</a>
+        <a class="invi2 cherry smallCaps" href="https://www.linkedin.com/in/brendan-mckay/">linkedin</a>
+        <a class="invi2 cherry smallCaps" href="https://medium.com/@brendanmckaydesign">medium</a>
+        <a href="javascript:void(0);" class="icon logo2" onclick="myFunction()">
+          <i class="contactMe"><img src="img/contact.svg" style="height: 35px;"></i>
+        </a>
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
     <div>
         <img class="bannerSize" alt="Ethos" src="img/momentBanner.png">
     </div>
